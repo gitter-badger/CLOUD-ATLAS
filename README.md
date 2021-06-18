@@ -28,7 +28,7 @@ PWABuilder.com is an awesome page providing all resources, for drag and drop & c
 - Includes the [PWABuilder pwa-install component](https://github.com/pwa-builder/pwa-install#pwa-install) for an app store like PWA install experience.
 - [Workbox](https://developers.google.com/web/tools/workbox/) for service workers along with the [PWABuilder pwa-update component](https://github.com/pwa-builder/pwa-update#pwa-update) to give your PWA a great offline experience.
 - Includes [PWABuilder pwa-auth](https://github.com/pwa-builder/pwa-auth) web component. This component lets your users sign-in/sign-up using their Google, Apple, or Facebook account. Your app receives their email address, name, and profile picture.
-- Includes a mainscreen (blank or with a map) and a menu with an open/close animation.
+- Includes a mainscreen (blank or with a map) and a blank menu with an open/close animation.
 
 Everything's ready to your demand...
 
@@ -65,7 +65,6 @@ We recommend the following tools for your dev setup:
 
 * Editor: [VSCode](https://code.visualstudio.com/)
 * Terminal: [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal-preview/9n0dx20hk701?activetab=pivot:overviewtab) or [hyper](https://hyper.is/)
-* PWABuilder VSCode extension: [PWABuilder VSCode extension](https://marketplace.visualstudio.com/items?itemName=PWABuilder.pwabuilder-extension)
 
 
 
@@ -100,10 +99,10 @@ Without Cloudflare, you would have to pay server traffic every time a user visit
 Later, the PWA even saves Cloudflare some traffic, but we are able to catch spikes in traffic with ease.
 
 We recommend Digitalocean STRAPI Basic Droplet: 2 Cpu, 2 GB Ram, 2 Terabyte Traffic included (thats 2 billion API requests) for 10$ a month.
-Another Terabyte comes for a cheap 10$.
+Another Terabyte comes for another cheap 10$.
 
-From there, with growing bigger and bigger, your one and only task is "only" scaling your API. Thats it.
-All the other stuff, thats usually connected with running a app or even a platform, is done.
+From there, you growing bigger and bigger, your one and only task is "only" scaling your API. Thats it.
+All the other stuff, thats usually connected with running an app or even a platform, is done.
 
 You can focus on design and code and nothing else. (...and API scaling...)
 

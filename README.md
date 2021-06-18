@@ -1,4 +1,4 @@
-# PWA-SPA-Map-and-Menu-Starter-Kit
+# PWA-SPA-blank_screen-and-menu-Starter-Kit (React and Material UI)
 
 
 
@@ -11,10 +11,10 @@ PWA Builder is an awesome project of a handful Microsoft developers providing a 
 You can check anytime how many PWA Points your actual app/page has on (https://www.pwabuilder.com/)
 (this template has 87 Points, Google Map's PWA has 83) *evillaughing*
 
-PWABuilder.com is an awesome page providing all resources, for drag and drop & copy and paste a manifest or service worker scripts.
+PWABuilder.com is an awesome page providing all resources, for drag and drop & copy and paste a manifest or service worker scripts and many well explained snippets for additional native app like features.
 
 
- PWA-SPA-Map-and-Menu-Starter-Kit!
+ PWA-SPA-blank_screen-and-menu-Starter-Kit
  
  Looking to build a new [Progressive Web App](https://web.dev/progressive-web-apps/) and not sure where to get started?
  This is what you are looking for! The PWA-SPA-Map-and-Menu-Starter-Kit includes everything you need to start building a production ready PWA and follows all best practices.
@@ -28,7 +28,7 @@ PWABuilder.com is an awesome page providing all resources, for drag and drop & c
 - Includes the [PWABuilder pwa-install component](https://github.com/pwa-builder/pwa-install#pwa-install) for an app store like PWA install experience.
 - [Workbox](https://developers.google.com/web/tools/workbox/) for service workers along with the [PWABuilder pwa-update component](https://github.com/pwa-builder/pwa-update#pwa-update) to give your PWA a great offline experience.
 - Includes [PWABuilder pwa-auth](https://github.com/pwa-builder/pwa-auth) web component. This component lets your users sign-in/sign-up using their Google, Apple, or Facebook account. Your app receives their email address, name, and profile picture.
-- Includes a mainscreen (blank or with a map) and a blank menu with an open/close animation.
+- Includes a blank mainscreen and a blank menu with an open/close animation.
 
 Everything's ready to your demand...
 

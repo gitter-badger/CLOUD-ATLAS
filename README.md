@@ -1,4 +1,4 @@
-# PWA-SPA-blank_screen-menu-Starter-Kit (React and Material UI)
+# PWA-SPA-login-blank_screen-menu-Starter-Kit (React and Material UI)
 
 
 
@@ -13,7 +13,7 @@ You can check anytime how many PWA Points your actual app/page has on (https://w
 PWABuilder.com is an awesome page providing all resources, for drag and drop & copy and paste a manifest or service worker scripts and many well explained snippets for additional native app like features.
 
 
- PWA-SPA-blank_screen-and-menu-Starter-Kit
+ PWA-SPA-login-blank_screen-menu-Starter-Kit
  
  Looking to build a new [Progressive Web App](https://web.dev/progressive-web-apps/) and not sure where to get started?
  This is what you are looking for! The PWA-SPA-Map-and-Menu-Starter-Kit includes everything you need to start building a production ready PWA and follows all best practices.

@@ -1,5 +1,4 @@
-# PWA-SPA-blank_screen-and-menu-Starter-Kit (React and Material UI)
-
+# PWA-SPA-blank_screen-menu-Starter-Kit (React and Material UI)
 
 
 

@@ -34,14 +34,13 @@
     <!-- A stylesheet to design the pages. -->
     <link href="styles/global.css" rel="stylesheet" />
 
-    <!--<script type="module" src="/build/src/script/pages/app-index.js"></script>-->
-    <script type="module" src="src/script/pages/app-index.ts"></script>
+    <!--<script type="module" src="/build/src/index.js"></script>-->
+    <script type="module" src='src/index.jsx'></script>
   </head>
 
   <body>
-    <!-- Our app-index web component. This component is defined in src/pages/app-index.ts-->
     <fast-design-system-provider use-defaults>
-      <app-index></app-index>
+      <div id="root"></div>
     </fast-design-system-provider>
 
     <script type="module" src="/pwabuilder-sw.ts"></script>

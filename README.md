@@ -1,4 +1,4 @@
-# PWA-SPA-login-blank_screen-menu-Starter-Kit (React and Material UI)
+# PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit (React and Material UI)
 
 
 ## Full insight into the realm of PWA
@@ -18,7 +18,7 @@ PWABuilder.com is an awesome page providing all resources, for drag and drop & c
 
 
 
- PWA-SPA-login-blank_screen-menu-Starter-Kit!
+ PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit!
  
  Looking to build a new [Progressive Web App](https://web.dev/progressive-web-apps/) and not sure where to get started?
  This is what you are looking for! The PWA-SPA-Map-and-Menu-Starter-Kit includes everything you need to start building a production ready PWA and follows all best practices.

@@ -13,7 +13,10 @@ PWA Builder is an awesome project of a handful Microsoft developers providing a 
 
 You can check anytime how many PWA Points your actual app/page has on (https://www.pwabuilder.com/)
 
-This template has 87 points, Google Map's PWA has 83 points, so this is a good repository to start with.
+-Twitter PWA 94 point
+-PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit 87 points
+-Google Map's PWA 83 points
+...so this is a good repository to start with.
 
 PWABuilder.com is an awesome page providing all resources, for drag and drop & copy and paste a manifest or service worker scripts and many well explained snippets for additional native app like features.
  

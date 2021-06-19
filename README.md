@@ -7,7 +7,7 @@ This is what you are looking for! The PWA-SPA-Map-and-Menu-Starter-Kit includes 
 ## Why PWA? Deep insight into the realm of PWA - The future of the internet and apps
 Progressive Web Apps - PWA Roadshow: https://youtu.be/z2JgN6Ae-Bo
 
-## This is HARDFORK of PWA Builder
+## This is a HARDFORK of PWA Builder
 
 PWA Builder is an awesome project of a handful Microsoft developers providing a great entree for building a PWA.
 

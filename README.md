@@ -1,13 +1,13 @@
-# PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit (React and Material UI)
+# PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit
+(React and Material UI - dropping the original lit and FAST libraries)
 
+Looking to build a new [Progressive Web App](https://web.dev/progressive-web-apps/) and not sure where to get started?
+This is what you are looking for! The PWA-SPA-Map-and-Menu-Starter-Kit includes everything you need to start building a production ready PWA and follows all best practices.
 
-## Full insight into the realm of PWA
+## Deep insight into the realm of PWA
 Progressive Web Apps - PWA Roadshow: https://youtu.be/z2JgN6Ae-Bo
 
-
-
-## Welcome to the HARDFORK of PWA Builder
-(modified to be able to use React and Material UI, dropping the original lit and FAST libraries)
+## This is HARDFORK of PWA Builder
 
 PWA Builder is an awesome project of a handful Microsoft developers providing a great entree for building a PWA.
 
@@ -15,17 +15,8 @@ You can check anytime how many PWA Points your actual app/page has on (https://w
 (this template has 87 Points, Google Map's PWA has 83) *evillaughing*
 
 PWABuilder.com is an awesome page providing all resources, for drag and drop & copy and paste a manifest or service worker scripts and many well explained snippets for additional native app like features.
-
-
-
- PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit!
  
- Looking to build a new [Progressive Web App](https://web.dev/progressive-web-apps/) and not sure where to get started?
- This is what you are looking for! The PWA-SPA-Map-and-Menu-Starter-Kit includes everything you need to start building a production ready PWA and follows all best practices.
- 
- 
- 
- ## You will get:
+## You will get:
 
 - lazy-loaded routes using [@vaadin/router](https://vaadin.com/router).
 - A 100 on [Lighthouse](https://developers.google.com/web/tools/lighthouse/), giving you a great starting point for performance and accessibility.

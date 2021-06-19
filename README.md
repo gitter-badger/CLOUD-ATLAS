@@ -4,7 +4,7 @@
 Looking to build a new [Progressive Web App](https://web.dev/progressive-web-apps/) and not sure where to get started?
 This is what you are looking for! The PWA-SPA-Map-and-Menu-Starter-Kit includes everything you need to start building a production ready PWA and follows all best practices.
 
-## Deep insight into the realm of PWA
+## Why PWA? Deep insight into the realm of PWA - The future of the internet and apps
 Progressive Web Apps - PWA Roadshow: https://youtu.be/z2JgN6Ae-Bo
 
 ## This is HARDFORK of PWA Builder

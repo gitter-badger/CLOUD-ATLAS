@@ -1,10 +1,14 @@
-### Why the non-commercial license model?
+# Why the non-commercial license model?
 World Peace Engine Labs's existing and upcoming companies, publishings, products, projects, and code, are always licensed by the following two licenses,
 to provide the maximum freedom of usage, but ensuring that it will be used for non-profit purposes only.
-This is part of the #nonprofitasaservice movement.
 
+This is part of the [#nonprofitasaservice](https://worldpeaceengine.org/nonprofitasaservice/) movement.
 
-# PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit
+https://github.com/worldpeaceenginelabs/PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit/blob/main/LICENSE.txt
++ Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
++ MIT License (altered to non-profit version)
+
+## PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit
 (React and Material UI - dropping the original lit and FAST libraries)
 
 Looking to build a new [Progressive Web App](https://web.dev/progressive-web-apps/) and not sure where to get started?
@@ -19,11 +23,9 @@ PWA Builder is an awesome project of a handful Microsoft developers providing a 
 
 You can check anytime how many PWA Points your actual app/page has on (https://www.pwabuilder.com/)
 
--Twitter PWA 94 point
-
--PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit 87 points
-
--Google Map's PWA 83 points
++ Twitter PWA 94 point
++ PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit 87 points
++ Google Map's PWA 83 points
 
 ...so this is a good repository to start with.
 

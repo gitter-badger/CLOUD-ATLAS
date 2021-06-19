@@ -1,8 +1,8 @@
 # PWA-SPA-login-blank_screen-menu-Starter-Kit (React and Material UI)
 
 
-## 
-Progressive Web Apps - PWA Roadshow: https://youtu.be/z2JgN6Ae-Bo (full insight into the realm of PWA)
+## Full insight into the realm of PWA
+Progressive Web Apps - PWA Roadshow: https://youtu.be/z2JgN6Ae-Bo
 
 
 
@@ -25,7 +25,7 @@ PWABuilder.com is an awesome page providing all resources, for drag and drop & c
  
  
  
- You will get:
+ ## You will get:
 
 - lazy-loaded routes using [@vaadin/router](https://vaadin.com/router).
 - A 100 on [Lighthouse](https://developers.google.com/web/tools/lighthouse/), giving you a great starting point for performance and accessibility.

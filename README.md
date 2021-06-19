@@ -1,3 +1,9 @@
+### Why the non-commercial license model?
+World Peace Engine Labs's existing and upcoming companies, publishings, products, projects, and code, are always licensed by the following two licenses,
+to provide the maximum freedom of usage, but ensuring that it will be used for non-profit purposes only.
+This is part of the #nonprofitasaservice movement.
+
+
 # PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit
 (React and Material UI - dropping the original lit and FAST libraries)
 

@@ -2,7 +2,7 @@
 (React and Material UI - dropping the original lit and FAST libraries)
 
 Looking to build a new [Progressive Web App](https://web.dev/progressive-web-apps/) and not sure where to get started?
-This is what you are looking for! The PWA-SPA-Map-and-Menu-Starter-Kit includes everything you need to start building a production ready PWA and follows all best practices.
+This is what you are looking for! The PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit includes everything you need to start building a production ready PWA and follows all best practices.
 
 ## Why PWA? Deep insight into the realm of PWA - The future of the internet and apps
 Progressive Web Apps - PWA Roadshow: https://youtu.be/z2JgN6Ae-Bo

@@ -1,12 +1,12 @@
 # PWA-SPA-login-blank_screen-menu-Starter-Kit (React and Material UI)
 
 
-
+## 
 Progressive Web Apps - PWA Roadshow: https://youtu.be/z2JgN6Ae-Bo (full insight into the realm of PWA)
 
 
 
-Welcome to the HARDFORK of PWA Builder
+## Welcome to the HARDFORK of PWA Builder
 (modified to be able to use React and Material UI, dropping the original lit and FAST libraries)
 
 PWA Builder is an awesome project of a handful Microsoft developers providing a great entree for building a PWA.

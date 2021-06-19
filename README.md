@@ -153,8 +153,8 @@ pwa-starter
 │   │   global.css (used for global CSS styles and CSS variables)
 │   │ 
 |   └─────components
-|           |   MainScreen.jsx (header component)
-|           |   Menu.jsx (header component)
+|           |   MainScreen.jsx (component)
+|           |   Menu.jsx (component)
 |           |
 |           |
 |           └───pages

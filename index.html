@@ -30,6 +30,12 @@
     <!-- A stylesheet to design the pages. -->
     <link href="styles/global.css" rel="stylesheet" />
 
+    <!-- Required for cesium -->
+    <script type='text/javascript'>
+      window.CESIUM_BASE_URL = '/assets/cesium/';
+    </script>
+    <link href="/assets/cesium/Widgets/widgets.css" rel="stylesheet" />
+
     <!--<script type="module" src="/build/src/index.js"></script>-->
     <script type="module" src='src/index.tsx'></script>
   </head>
@@ -37,6 +43,7 @@
   <body>
     <div id="root"></div>
 
+    <!--
     <pwa-install></pwa-install>
     <script
       type="module"
@@ -49,6 +56,7 @@
       type="module"
       src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate"
     ></script>
+    -->
 
     <script type="module" src="/pwabuilder-sw.ts"></script>
     <script>

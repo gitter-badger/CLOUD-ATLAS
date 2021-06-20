@@ -1,4 +1,4 @@
-import nodeResolve from '@rollup/plugin-node-resolve';
+import resolve from '@rollup/plugin-node-resolve';
 import html from '@open-wc/rollup-plugin-html';
 import copy from 'rollup-plugin-copy';
 import replace from '@rollup/plugin-replace';
@@ -9,6 +9,10 @@ import postcss from 'rollup-plugin-postcss';
 import image from '@rollup/plugin-image';
 import json from '@rollup/plugin-json';
 
+import path from 'path';
+
+const cesiumBuildPath = 'node_modules/cesium/Build/Cesium';
+
 export default {
   input: 'index.html',
   output: {
@@ -16,23 +20,29 @@ export default {
     format: 'es',
   },
   plugins: [
-    nodeResolve({ extensions: ['.js', 'jsx', '.ts', '.tsx', '.svg'] }),
-    html(),
-    image(),
-    json(),
-    typescript({
-      tsconfig: 'tsconfig.dev.json',
+    resolve({
+      extensions: ['.mjs', '.node', '.js', 'jsx', '.ts', '.tsx', '.svg'],
+      browser: true,
+    }),
+    commonjs({
+      include: ['node_modules/**'],
     }),
     replace({
       'process.env.NODE_ENV': JSON.stringify(
         process.env.NODE_ENV || 'production'
       ),
     }),
-    commonjs(),
     babel({
       presets: ['@babel/preset-react'],
       babelHelpers: 'bundled',
+      exclude: 'node_modules/**',
     }),
+    typescript({
+      tsconfig: 'tsconfig.dev.json',
+    }),
+    html(),
+    image(),
+    json(),
     postcss({
       extensions: ['.css'],
     }),
@@ -41,6 +51,24 @@ export default {
         { src: 'assets/**/*', dest: 'build/assets/' },
         { src: 'styles/global.css', dest: 'build/styles/' },
         { src: 'manifest.json', dest: 'build/' },
+
+        // Cesium stuff
+        {
+          src: path.join(cesiumBuildPath, 'Assets'),
+          dest: 'build/assets/cesium/',
+        },
+        {
+          src: path.join(cesiumBuildPath, 'ThirdParty'),
+          dest: 'build/assets/cesium/',
+        },
+        {
+          src: path.join(cesiumBuildPath, 'Widgets'),
+          dest: 'build/assets/cesium/',
+        },
+        {
+          src: path.join(cesiumBuildPath, 'Workers'),
+          dest: 'build/assets/cesium/',
+        },
       ],
     }),
   ],

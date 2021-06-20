@@ -5,6 +5,7 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';
 import { makeStyles } from '@material-ui/core';
 import { DefaultTheme } from '@material-ui/styles';
+import LoggedInView from 'src/Components/views/LoggedInView';
 
 interface IMainScreenProps {
   setShowMenu: (state: boolean) => void;
@@ -35,6 +36,8 @@ const MainScreen: React.FunctionComponent<IMainScreenProps> = ({
       <MenuIconOpen setShowMenu={setShowMenu} />
 
       {!isLoggedIn && <NotLoggedInView setIsLoggedIn={setIsLoggedIn} />}
+
+      {isLoggedIn && <LoggedInView />}
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import resolve from '@rollup/plugin-node-resolve';
+import nodeResolve from '@rollup/plugin-node-resolve';
 import { terser } from 'rollup-plugin-terser';
 import html from '@open-wc/rollup-plugin-html';
 import replace from '@rollup/plugin-replace';
@@ -17,22 +17,22 @@ export default {
     format: 'es',
   },
   plugins: [
-    resolve(),
+    nodeResolve({ extensions: ['.js', 'jsx', '.ts', '.tsx', '.svg'] }),
+    html(),
+    image(),
+    typescript({
+      tsconfig: 'tsconfig.json',
+    }),
     replace({
       'process.env.NODE_ENV': JSON.stringify(
         process.env.NODE_ENV || 'production'
       ),
-    }),
-    html(),
-    typescript({
-      tsconfig: 'tsconfig.json'
     }),
     commonjs(),
     babel({
       presets: ['@babel/preset-react'],
       babelHelpers: 'bundled',
     }),
-    image(),
     postcss({
       extensions: ['.css'],
     }),
@@ -46,6 +46,6 @@ export default {
         { src: 'styles/global.css', dest: 'dist/styles/' },
         { src: 'manifest.json', dest: 'dist/' },
       ],
-    })
+    }),
   ],
 };

@@ -49,7 +49,7 @@ const styles = makeStyles<
     'textTransform': 'none',
     'borderRadius': '10px',
     'boxShadow': 'rgb(0 0 0 / 20%) 2px 3px 6px',
-    'padding': 0,
+    'padding': '0 15px 0 0',
     '&:hover': {
       backgroundColor: darken(props.backgroundColor, 0.2),
     },
@@ -87,8 +87,6 @@ const LoginProviderButton: React.FunctionComponent<ILoginProviderButtonProps> = 
   } = loginProviderSettingsMap[loginProvider];
 
   const classes = styles({ color, backgroundColor });
-
-  console.log({ classes });
 
   return (
     <Button

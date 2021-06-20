@@ -4,10 +4,16 @@ import { makeStyles } from '@material-ui/core';
 
 const styles = makeStyles({
   pane: {
-    margin: '20px',
+    padding: '80px 30px',
+    backgroundColor: '#ffffff',
+    borderRadius: '10px',
   },
   paneItem: {
-    margin: '10px',
+    'marginBottom': '20px',
+
+    '&:last-child': {
+      marginBottom: 0,
+    },
   },
 });
 

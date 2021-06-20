@@ -25,12 +25,6 @@
     <!-- Imports the manifest to represent the web application. A web app must have a manifest to be a PWA. -->
     <link rel="manifest" href="manifest.json" />
 
-    <!-- Microsoft Fast Components https://www.fast.design/docs/components/getting-started-->
-    <script
-      type="module"
-      src="https://unpkg.com/@microsoft/fast-components"
-    ></script>
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
 
     <!-- A stylesheet to design the pages. -->
@@ -41,14 +35,26 @@
   </head>
 
   <body>
-    <fast-design-system-provider use-defaults>
-      <div id="root"></div>
-    </fast-design-system-provider>
+    <div id="root"></div>
+
+    <pwa-install></pwa-install>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall"
+    ></script>
+
+
+    <pwa-update></pwa-update>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate"
+    ></script>
 
     <script type="module" src="/pwabuilder-sw.ts"></script>
-
     <script>
-      navigator.serviceWorker.register("/pwabuilder-sw.js");
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("/pwabuilder-sw.js");
+      }
     </script>
   </body>
 </html>

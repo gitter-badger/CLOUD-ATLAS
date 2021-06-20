@@ -23,6 +23,7 @@
     "outDir": "./dist/",
     "skipLibCheck": true,
     "experimentalDecorators": true,
+    "resolveJsonModule": true,
     "baseUrl": ".",
     "typeRoots": [
       "./node_modules/@types",

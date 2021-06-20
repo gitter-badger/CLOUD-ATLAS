@@ -9,6 +9,7 @@ import babel from '@rollup/plugin-babel';
 import commonjs from '@rollup/plugin-commonjs';
 import postcss from 'rollup-plugin-postcss';
 import image from '@rollup/plugin-image';
+import json from '@rollup/plugin-json';
 
 export default {
   input: 'build/index.html',
@@ -20,6 +21,7 @@ export default {
     nodeResolve({ extensions: ['.js', 'jsx', '.ts', '.tsx', '.svg'] }),
     html(),
     image(),
+    json(),
     typescript({
       tsconfig: 'tsconfig.json',
     }),

@@ -20,7 +20,7 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
-    "outDir": "./dist/",
+    "outDir": "./build/",
     "skipLibCheck": true,
     "experimentalDecorators": true,
     "resolveJsonModule": true,

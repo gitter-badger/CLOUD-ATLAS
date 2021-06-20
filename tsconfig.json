@@ -12,6 +12,7 @@
     "jsx": "react",
     "strict": true,
     "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": false,
@@ -20,11 +21,20 @@
     "noImplicitAny": true,
     "noImplicitThis": true,
     "outDir": "./dist/",
-    // Only necessary because @types/uglify-js can't find types for source-map
     "skipLibCheck": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ]
   },
-  "include": ["pwabuilder-sw.ts"],
+  "include": [
+    "src",
+    "types",
+    "pwabuilder-sw.ts"
+  ],
   "exclude": [
     "node_modules",
     "**/*.spec.ts",

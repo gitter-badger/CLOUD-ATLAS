@@ -12,8 +12,6 @@
 
 # devlopment
 /build
-# production
-/dist
 
 # misc
 .DS_Store
@@ -23,3 +21,6 @@
 .env.production.local
 
 npm-debug.log*
+
+
+app.config.json

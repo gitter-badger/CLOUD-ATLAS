@@ -5,8 +5,6 @@ import appConfig from 'src/getConfig';
 
 import './index.css';
 
-console.log(appConfig);
-
 ReactDOM.render(
   <React.StrictMode>
     <App />

@@ -14,10 +14,7 @@ const FacebookLoginButton: React.FunctionComponent<IFacebookLoginButtonProps> = 
     <FacebookLogin
       appId={appConfig.FACEBOOK_APP_ID}
       fields="name,email,picture"
-      callback={(response) => {
-        console.log('Login successful', response);
-        setIsLoggedIn(true);
-      }}
+      callback={() => setIsLoggedIn(true)}
       onFailure={(response) => {
         console.error('Login failed', response);
         setIsLoggedIn(false);

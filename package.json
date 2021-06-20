@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup --config rollup.config.dev.js && rimraf dist/ && rollup --config rollup.config.js && node workbox.mjs",
-    "start": "concurrently \"rollup --config rollup.config.dev.js --watch\" \"es-dev-server --app-index build/index.html --root-dir build/ --compatibility none --node-resolve --watch --open /\"",
-    "dev": "concurrently \"rollup --config rollup.config.dev.js --watch\" \"web-dev-server --app-index build/index.html --root-dir build/ --compatibility none --node-resolve --watch --open /\""
+    "build": "NODE_ENV=production rimraf build/ rollup --config rollup.config.js && node workbox.mjs",
+    "dev": "NODE_ENV=development concurrently \"rollup --config rollup.config.js --watch\" \"web-dev-server --app-index build/index.html --root-dir build/ --compatibility none --node-resolve --watch --open /\""
   },
   "author": "",
   "license": "ISC",
@@ -44,7 +43,7 @@
     "@types/service_worker_api": "0.0.9",
     "@typescript-eslint/eslint-plugin": "^4.12.0",
     "@typescript-eslint/parser": "^4.12.0",
-    "@web/dev-server": "^0.1.3",
+    "@web/dev-server": "^0.1.17",
     "concurrently": "^5.3.0",
     "danger": "^10.6.0",
     "eslint": "^7.17.0",

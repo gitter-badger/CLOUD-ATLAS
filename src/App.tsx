@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import MainScreen from './Components/MainScreen';
-import Menu from './Components/Menu';
+import MainScreen from '@app/Components/MainScreen';
+import Menu from '@app/Components/Menu';
 
-const App = () => {
+const App: React.FunctionComponent = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <div className='App'>

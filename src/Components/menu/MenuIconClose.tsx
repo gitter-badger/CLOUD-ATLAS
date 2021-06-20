@@ -1,6 +1,10 @@
 import React from "react";
 
-const MenuIconClose = ({ setShowMenu }) => {
+interface IMenuIconCloseProps {
+  setShowMenu: (state: boolean) => void;
+}
+
+const MenuIconClose: React.FunctionComponent<IMenuIconCloseProps> = ({ setShowMenu }) => {
   return (
     <div className="menuIcon close" onClick={() => setShowMenu(false)}>
       <svg

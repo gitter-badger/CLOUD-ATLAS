@@ -1,10 +1,24 @@
 {
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  },
   "root": true,
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "eslint-plugin-import"],
+  "parserOptions": {
+    "project": "./tsconfig.dev.json",
+    "tsconfigRootDir": "./"
+  },
+  "plugins": [
+    "@typescript-eslint",
+    "eslint-plugin-import",
+    "import"
+  ],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "plugin:import/typescript",
     "plugin:eslint-plugin-import/recommended",
     "prettier",
@@ -12,7 +26,10 @@
   ],
   "overrides": [
     {
-      "files": ["src/**/*.ts"],
+      "files": [
+        "src/**/*.{ts,tsx}",
+        "src/**/*.{js,jsx}"
+      ],
       "rules": {
         "@typescript-eslint/explicit-module-boundary-types": ["off"]
       }

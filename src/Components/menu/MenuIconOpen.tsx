@@ -1,6 +1,10 @@
 import React from 'react';
 
-const MenuIconOpen = ({ setShowMenu }) => {
+interface IMenuIconOpenProps {
+  setShowMenu: (state: boolean) => void;
+}
+
+const MenuIconOpen: React.FunctionComponent<IMenuIconOpenProps> = ({ setShowMenu }) => {
   return (
     <div className='menuIcon open' onClick={() => setShowMenu(true)}>
       <svg

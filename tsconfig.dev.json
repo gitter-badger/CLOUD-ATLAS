@@ -12,6 +12,7 @@
       "jsx": "react",
       "strict": true,
       "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
       "noUnusedLocals": true,
       "noUnusedParameters": true,
       "noImplicitReturns": true,
@@ -21,7 +22,11 @@
       "outDir": "./build/",
       // Only necessary because @types/uglify-js can't find types for source-map
       "skipLibCheck": true,
-      "experimentalDecorators": true
+      "experimentalDecorators": true,
+      "baseUrl": ".",
+      "paths": {
+        "@app/*": ["src/*"]
+      }
     },
     "exclude": [
       "node_modules",

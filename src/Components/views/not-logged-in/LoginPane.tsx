@@ -1,6 +1,8 @@
 import React from 'react';
-import LoginProviderButton from 'src/Components/provider-login-button/LoginProviderButton';
 import { makeStyles } from '@material-ui/core';
+import GoogleLoginButton from 'src/Components/provider-login-button/GoogleLoginButton';
+import FacebookLoginButton from 'src/Components/provider-login-button/FacebookLoginButton';
+import AppleLoginButton from 'src/Components/provider-login-button/AppleLoginButton';
 
 const styles = makeStyles({
   pane: {
@@ -29,24 +31,15 @@ const LoginPane: React.FunctionComponent<INotLoggedInViewProps> = ({
   return (
     <div className={classes.pane}>
       <div className={classes.paneItem}>
-        <LoginProviderButton
-          loginProvider="google"
-          onLogin={() => setIsLoggedIn(true)}
-        />
+        <GoogleLoginButton setIsLoggedIn={setIsLoggedIn} />
       </div>
 
       <div className={classes.paneItem}>
-        <LoginProviderButton
-          loginProvider="facebook"
-          onLogin={() => setIsLoggedIn(true)}
-        />
+        <FacebookLoginButton setIsLoggedIn={setIsLoggedIn} />
       </div>
 
       <div className={classes.paneItem}>
-        <LoginProviderButton
-          loginProvider="apple"
-          onLogin={() => setIsLoggedIn(true)}
-        />
+        <AppleLoginButton setIsLoggedIn={setIsLoggedIn} />
       </div>
     </div>
   );

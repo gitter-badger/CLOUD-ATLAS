@@ -11,6 +11,9 @@ import image from '@rollup/plugin-image';
 import json from '@rollup/plugin-json';
 import { terser } from 'rollup-plugin-terser';
 import strip from '@rollup/plugin-strip';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const cesiumBuildPath = 'node_modules/cesium/Build/Cesium';
 
@@ -34,6 +37,16 @@ export default {
       'process.env.NODE_ENV': JSON.stringify(
         process.env.NODE_ENV || 'production'
       ),
+      'process.env.GOOGLE_CLIENT_ID': JSON.stringify(
+        process.env.GOOGLE_CLIENT_ID
+      ),
+      'process.env.GOOGLE_CLIENT_SECRET': JSON.stringify(
+        process.env.GOOGLE_CLIENT_SECRET
+      ),
+      'process.env.FACEBOOK_APP_ID': JSON.stringify(
+        process.env.FACEBOOK_APP_ID
+      ),
+      'process.env.APPLE_APP_ID': JSON.stringify(process.env.APPLE_APP_ID),
     }),
     babel({
       presets: ['@babel/preset-react'],

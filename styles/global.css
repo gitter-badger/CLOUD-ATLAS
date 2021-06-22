@@ -34,3 +34,13 @@ html, body {
   }
 
 }
+
+
+/**
+ * Cesium adjustments
+ */
+.cesium-viewer-toolbar {
+  top: 30px;
+  left: 30px;
+  right: auto;
+}

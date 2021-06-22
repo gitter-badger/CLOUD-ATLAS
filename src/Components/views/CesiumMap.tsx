@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Viewer } from 'cesium';
 import { makeStyles } from '@material-ui/core';
+import appConfig from 'src/getConfig';
 
 const styles = makeStyles({
   container: {
@@ -19,10 +20,7 @@ const CesiumMap: React.FunctionComponent = () => {
   let viewer: Viewer;
   useEffect(() => {
     viewer = new Viewer(containerId, {
-      animation: false,
-      geocoder: false,
-      timeline: false,
-      navigationHelpButton: false,
+      ...appConfig.app.cesium,
     });
   });
 

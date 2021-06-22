@@ -12,7 +12,7 @@ const styles = makeStyles<DefaultTheme, { isSmallDevice: boolean }>({
     position: 'relative',
   },
   imagePane: ({ isSmallDevice }) => ({
-    height: isSmallDevice ? '40vh' : '100%',
+    height: isSmallDevice ? '60vh' : '100%',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',

@@ -1,12 +1,20 @@
 # Why the non-commercial license model?
-World Peace Engine Labs's existing and upcoming companies, publishings, products, projects, and code, are always licensed by the following two licenses,
-to provide the maximum freedom of usage, but ensuring that it will be used for non-profit purposes only.
 
-This is part of the [#nonprofitasaservice](https://worldpeaceengine.org/nonprofitasaservice/) movement.
+World Peace Engine Labs's existing and upcoming companies, apps, publishings, products, projects, and code, are always licensed by the following two licenses,
+to provide the maximum freedom of usage, but intended for non-profit purposes only.
 
 https://github.com/worldpeaceenginelabs/PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit/blob/main/LICENSE.txt
 + Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 + MIT License (altered to non-profit version)
+
+## This is part of [#decentralized-non-profit-as-a-service](https://worldpeaceengine.org/decentralized-non-profit-as-a-service/)
+
+We are building a PWA Starter Kit for the [Jamstack](https://jamstack.org/), but for non-profit purposes only.
+But at the same time, we are buidling our own app "The Cloud Atlas" on the same codebase where you are able to do the following amongst many other things:
+
+- Transform your profit-based business ideas (the one that you maybe came with to this repository) into decentralized, sustainable non-profit businesses (multiple at the same time if you like), reaching a worldwide audience in only 1.8 secs each user, for only 10$ a month each project.(estimated 2 billion API requests montly, est. 1 billion more for 10$, more details look up #Deployment)
+- Brainstorm how to transform your business idea into a decentralized, sustainable non-profit business with individuals and non-profit, for-profit, and institutional representatives who share your interest…
+- Get crowdfundings and donations for your decentralized, sustainable non-profit business
 
 ## PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit
 (React and Material UI - dropping the original lit and FAST libraries)
@@ -38,25 +46,20 @@ PWABuilder.com is an awesome page providing all resources, for drag and drop & c
 - Includes the [PWABuilder pwa-install component](https://github.com/pwa-builder/pwa-install#pwa-install) for an app store like PWA install experience.
 - [Workbox](https://developers.google.com/web/tools/workbox/) for service workers along with the [PWABuilder pwa-update component](https://github.com/pwa-builder/pwa-update#pwa-update) to give your PWA a great offline experience.
 - Includes [PWABuilder pwa-auth](https://github.com/pwa-builder/pwa-auth) web component. This component lets your users sign-in/sign-up using their Google, Apple, or Facebook account. Your app receives their email address, name, and profile picture. (coming soon)
-- Includes a blank mainscreen or map and a blank menu with an open/close animation. (menu done, blank screen done, map is coming)
+- Includes a blank mainscreen with a map and a blank menu with an open/close animation. 
 
 Everything's ready to your demand...
 
-**[Live Demo](https://pwa-starter-demo.glitch.me/)** (it's the same package with the same 87 points on pwa-builder.com, but we dropped the pwa-starter example page from our package and made it React + Material UI compatible)
-
-
+**[Live Demo](https://cloud-atlas.org)** (it's the same package with the same 87 points on pwa-builder.com, but we dropped the pwa-starter example page from our package and made it React + Material UI compatible)
 
 ## Getting Started
 
-
-
 ### Supported Browsers
+
 - Edge
 - Chrome
 - Firefox
 - Safari
-
-
 
 ### Prequisites
 
@@ -67,8 +70,6 @@ You will need the following things properly installed on your computer.
 
 You should also be familiar with [TypeScript](https://www.typescriptlang.org/) which we use for this project. This helps give you more guidance as you code from [intellisense](https://code.visualstudio.com/docs/editor/intellisense) when using [VSCode](https://code.visualstudio.com/).
 
-
-
 ### Recommended Development setup
 
 We recommend the following tools for your dev setup:
@@ -76,72 +77,55 @@ We recommend the following tools for your dev setup:
 * Editor: [VSCode](https://code.visualstudio.com/)
 * Terminal: [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal-preview/9n0dx20hk701?activetab=pivot:overviewtab) or [hyper](https://hyper.is/)
 
-
-
 ### Development
 
 Run `npm install` and then run `npm run dev`, the starter should open in your default browser. From here you can start developing, your changes will be rebuilt and reloaded in the browser as you develop.
-
-
 
 ### Building for Production
 
 Run `npm run build`, the `dist/` folder will contain your built PWA. The production build will also generate a pre-caching service worker using [Workbox](https://developers.google.com/web/tools/workbox/modules/workbox-precaching).
 
-
-
 ## Deployment and Packaging
 
-
-
-### Deployment
-
+### Front-end Deployment
 
 Once your PWA is ready to deploy you can deploy/host it anywhere.
 
 We recommend Cloudflare.com (0€ Basic plan, unlimited pages, unlimited bandwidth and 500 deploys a month)
+
 Your static, but API refreshed app, will be deployed to 200 servers worldwide, loading your app in an average of 1.8 sec in every corner around the globe.
 From Metropole to jungle village...
 
-Your API is the only bottleneck, but thats awesome, since we've eliminated everything else, with dropping our app to Cloudflare.
-Without Cloudflare, you would have to pay server traffic every time a user visits your app and had to pay after reaching the limits.
+Your API is pretty much the only bottleneck!
+But that's awesome, since we've eliminated every other administrational burden, with just dropping our app to Cloudflare.
 
-Later, the PWA even saves Cloudflare some traffic, but we are able to catch spikes in traffic with ease.
+Cloudflare are able to catch spikes in traffic with ease.
+Without Cloudflare, you would have to pay server traffic every time a user visits your app/page or downloads or updates the app.
 
-We recommend Digitalocean STRAPI Basic Droplet: 2 Cpu, 2 GB Ram, 2 Terabyte Traffic included (thats 2 billion API requests) for 10$ a month.
-Another Terabyte comes for another cheap 10$.
+If the free tier of most as-a-service/api providers is used up, many developers regret some of their decisions due to the complexity of the huge amount of connected environments that developers in the pre-Jamstack time were facing.
 
-From there, you growing bigger and bigger, your one and only task is "only" scaling your API. Thats it.
+Now it's reduced to only a front-end in the framework/language you prefer, and an API back-end that is also replaceable.
+
+### Back-end Deployment
+
+We recommend Digitalocean's STRAPI Basic Droplet: 2 CPU, 2 GB RAM, 2 Terabyte traffic included (est. 2 billion API requests) for 10$ a month.
+Another Terabyte comes for another cheap 10$. (est. 1 billion API requests)
+
+From there, if you are growing bigger and bigger, your one and only task is "only" scaling your API server.
+That's it.
 All the other stuff, thats usually connected with running an app or even a platform, is done.
 
-You can focus on design and code and nothing else. (...and API scaling...)
+You can focus on design and code and nothing else. (...and API server scaling...)
 
 Cheers.
-
 
 ### Packaging
 
 Many app stores, including the Microsoft Store and the Google Play Store support PWAs. To package your PWA for deployment to these app stores head back to https://pwabuilder.com/, put in your URL and hit `Build My PWA`.
 
-
 ## Dual Screen support
 
 The default layout of this starter is dual screen friendly. We do this [here](https://github.com/pwa-builder/pwa-starter/blob/master/src/script/pages/app-home.ts#L41) by using the [CSS Spanning API](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/master/Foldables/explainer.md#proposal-css-primitives-for-building-dual-screen-layouts) to adjust the layout when the app is spanned on a dual screen device. As you start to build your PWA you can use these CSS features to ensure that your PWA looks good in all of the [dual screen postures](https://docs.microsoft.com/en-us/dual-screen/introduction#dual-screen-overview). For more info on developing PWAs for dual screen devices you can check out the [Microsoft docs here](https://docs.microsoft.com/en-us/dual-screen/cross-platform/#build-web-experiences).
-
-
-
-## Addons
-
-
-### Authentication
-
-For Authentication you can use the [PWABuilder pwa-auth](https://github.com/pwa-builder/pwa-auth) web component. This component lets your users sign-in/sign-up using their Google, Apple, or Facebook account. Your app receives their email address, name, and profile picture. Built with ❤ by the PWABuilder team.
-
-😎 Bonus: It's super lightweight, pulling in the authentication libraries only when the user tries to sign-in with one.
-
-😎😎 Double bonus: It uses the new [Credential Management APIs](https://developers.google.com/web/fundamentals/security/credential-management) to speed through sign-ins without bulky pop-ups or redirects.
-
-
 
 ## Folder Structure
 

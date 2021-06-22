@@ -2,8 +2,8 @@
 (it's the same package with the same 87 points on pwa-builder.com, but we dropped the pwa-starter example page from our package and made it React + Material UI compatible)
 
 ## WYSIWYG React Editor coming!!! Public Beta opens June 2021
-Check out Clutch.io and join the waitlist. I checked out around 20 WYSIWYG solutions for React and Bootstrap, all of them where either jailing you in their system or missing essential features.
-Informations are spare, because Clutch is in open beta, but if luck is on our side, you will get a full blown coding IDE, with visual UI editor for React Apps, and live-data while coding, from your self hosted API.
+Check out [Clutch.io](https://clutch.io) and join the waitlist. I checked out around 20 WYSIWYG solutions for React and Bootstrap, all of them where either jailing you in their system or missing essential features.
+Informations are spare, because Clutch is in open beta, but if luck is on our side, you will get a full-blown coding IDE, with visual UI editor for React Apps, and live data while coding, from your self-hosted API.
 
 # Why the non-commercial license model?
 <a href="https://cloud-atlas.org" target="_blank">Live Demo</a>

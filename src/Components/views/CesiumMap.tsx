@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Viewer } from 'cesium';
+import { Viewer, Ion } from 'cesium';
 import { makeStyles } from '@material-ui/core';
 import appConfig from 'src/getConfig';
 
@@ -19,6 +19,8 @@ const CesiumMap: React.FunctionComponent = () => {
   // @ts-expect-error we never touch the variable again
   let viewer: Viewer;
   useEffect(() => {
+    Ion.defaultAccessToken = appConfig.app.cesium.accessToken;
+
     viewer = new Viewer(containerId, {
       ...appConfig.app.cesium,
     });

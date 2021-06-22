@@ -9,6 +9,7 @@ interface IGlobalAppConfiguration {
   app: {
     // https://cesium.com/learn/cesiumjs/ref-doc/Viewer.html#.ConstructorOptions
     cesium: {
+      accessToken: string;
       animation: boolean;
       baseLayerPicker: boolean;
       fullscreenButton: boolean;

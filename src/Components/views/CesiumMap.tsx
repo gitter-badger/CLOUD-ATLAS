@@ -14,11 +14,16 @@ const styles = makeStyles({
 
 const CesiumMap: React.FunctionComponent = () => {
   const containerId = 'cesiumContainer';
-  // @ts-expect-error we never touch the variable again
 
+  // @ts-expect-error we never touch the variable again
   let viewer: Viewer;
   useEffect(() => {
-    viewer = new Viewer(containerId);
+    viewer = new Viewer(containerId, {
+      animation: false,
+      geocoder: false,
+      timeline: false,
+      navigationHelpButton: false,
+    });
   });
 
   const classes = styles();

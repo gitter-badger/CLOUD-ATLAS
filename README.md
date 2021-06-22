@@ -1,6 +1,10 @@
 ## **<a href="https://cloud-atlas.org" target="_blank">Live Demo</a>**
 (it's the same package with the same 87 points on pwa-builder.com, but we dropped the pwa-starter example page from our package and made it React + Material UI compatible)
 
+## WYSIWYG React Editor coming!!! Public Beta opens June 2021
+Check out Clutch.io and join the waitlist. I checked out around 20 WYSIWYG solutions for React and Bootstrap, all of them where either jailing you in their system or missing essential features.
+Informations are spare, because Clutch is in open beta, but if luck is on our side, you will get a full blown coding IDE, with visual UI editor for React Apps, and live-data while coding, from your self hosted API.
+
 # Why the non-commercial license model?
 <a href="https://cloud-atlas.org" target="_blank">Live Demo</a>
 World Peace Engine Labs's existing and upcoming companies, apps, publishings, products, projects, and code, are always licensed by the following two licenses,
@@ -19,10 +23,6 @@ But at the same time, we are buidling our own app "The Cloud Atlas" on the same 
 - Brainstorm how to transform your business idea into a decentralized, sustainable non-profit business with individuals and non-profit, for-profit, and institutional representatives who share your interest… (coming soon)
 - Get crowdfundings and donations for your decentralized, sustainable non-profit business ideas and running projects (coming later)
 - Let your sustainable non-profit business crash through the ceiling with connecting your PWA to the Cloud-Atlas and other PWAs, through an either centralized or decentralized or hybrid API (under development)...
-
-## WYSIWYG React Editor coming...
-Check out Clutch.io and join the waitlist. I checked out around 20 WYSIWYG solutions for React and Bootstrap, all of them where either jailing you in their system or missing essential features.
-Informations are spare, because Clutch is in open beta, but if luck is on our side, you will get a full blown coding IDE, with visual UI editor for React Apps, and live-data while coding, from your self hosted API.
 
 ## PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit
 (React and Material UI - dropping the original lit and FAST libraries)

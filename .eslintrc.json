@@ -27,8 +27,7 @@
   "overrides": [
     {
       "files": [
-        "src/**/*.{ts,tsx}",
-        "src/**/*.{js,jsx}"
+        "src/**/*.{ts,tsx,js,jsx}"
       ],
       "rules": {
         "@typescript-eslint/explicit-module-boundary-types": ["off"],

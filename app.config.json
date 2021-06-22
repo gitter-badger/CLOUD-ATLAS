@@ -1,6 +1,16 @@
 {
-  "GOOGLE_CLIENT_ID": "870215177811-d6dm21q9ru2agfp73na5f6eq5r2a0rtg.apps.googleusercontent.com",
-  "GOOGLE_CLIENT_SECRET": "WGEw6gqWeU4kXKCxKyR5wgnf",
-  "FACEBOOK_APP_ID": "",
-  "APPLE_APP_ID": ""
+  "cesium": {
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiODk0NjNmYi0yZjE4LTQxOTAtOGRhNC1mZjI3YzE1NzljMDkiLCJpZCI6NTk2MzMsImlhdCI6MTYyNDM0ODY2MH0.BQFuL1QN1-dZzfiq38PjM_ZUyQjgC0iUtAr5JtEEDVU",
+    "animation": false,
+    "baseLayerPicker": true,
+    "fullscreenButton": false,
+    "vrButton": false,
+    "geocoder": true,
+    "homeButton": true,
+    "infoBox": false,
+    "sceneModePicker": true,
+    "selectionIndicator": false,
+    "timeline": false,
+    "navigationHelpButton": false
+  }
 }

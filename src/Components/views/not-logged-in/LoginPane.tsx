@@ -3,13 +3,16 @@ import { makeStyles } from '@material-ui/core';
 import GoogleLoginButton from 'src/Components/provider-login-button/GoogleLoginButton';
 import FacebookLoginButton from 'src/Components/provider-login-button/FacebookLoginButton';
 import AppleLoginButton from 'src/Components/provider-login-button/AppleLoginButton';
+import { useTheme } from '@material-ui/core/styles';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
+import { DefaultTheme } from '@material-ui/styles';
 
-const styles = makeStyles({
-  pane: {
-    padding: '80px 30px',
+const styles = makeStyles<DefaultTheme, { isSmallDevice: boolean }>({
+  pane: ({ isSmallDevice }) => ({
+    padding: isSmallDevice ? '0 30px' : '80px 30px',
     backgroundColor: '#ffffff',
     borderRadius: '10px',
-  },
+  }),
   paneItem: {
     'marginBottom': '20px',
 
@@ -26,7 +29,12 @@ interface INotLoggedInViewProps {
 const LoginPane: React.FunctionComponent<INotLoggedInViewProps> = ({
   setIsLoggedIn,
 }) => {
-  const classes = styles();
+  const theme = useTheme();
+  const isSmallDevice = useMediaQuery(
+    `(max-width: ${theme.breakpoints.values.md}px)`
+  );
+
+  const classes = styles({ isSmallDevice });
 
   return (
     <div className={classes.pane}>

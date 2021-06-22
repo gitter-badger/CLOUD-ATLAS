@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Viewer, Ion } from 'cesium';
+import { Viewer, Ion, createDefaultImageryProviderViewModels } from 'cesium';
 import { makeStyles } from '@material-ui/core';
 import appConfig from 'src/getConfig';
 
@@ -21,8 +21,17 @@ const CesiumMap: React.FunctionComponent = () => {
   useEffect(() => {
     Ion.defaultAccessToken = appConfig.app.cesium.accessToken;
 
+    const viewModels = createDefaultImageryProviderViewModels();
+    const openStreetMapModelIndex = viewModels.findIndex((model) =>
+      model.iconUrl.includes('openStreetMap')
+    );
+
     viewer = new Viewer(containerId, {
       ...appConfig.app.cesium,
+      selectedImageryProviderViewModel:
+        openStreetMapModelIndex === -1
+          ? viewModels[0]
+          : viewModels[openStreetMapModelIndex],
     });
   });
 

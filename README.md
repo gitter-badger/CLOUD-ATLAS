@@ -15,6 +15,7 @@ But at the same time, we are buidling our own app "The Cloud Atlas" on the same 
 - Transform your profit-based business ideas (like the one that you maybe came with to this repository) into a decentralized, sustainable non-profit business, reaching a worldwide audience in only 1.8 secs each user, for only 10$ a month each project.(estimated 2 billion API requests montly, est. 1 billion more for 10$, more details look up #Deployment)
 - Brainstorm how to transform your business idea into a decentralized, sustainable non-profit business with individuals and non-profit, for-profit, and institutional representatives who share your interest…
 - Get crowdfundings and donations for your decentralized, sustainable non-profit business ideas and running projects
+- Let your sustainable non-profit business crash through the ceiling with connecting your PWA to the Cloud-Atlas and other PWAs, through an either centralized or decentralized API...
 
 ## PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit
 (React and Material UI - dropping the original lit and FAST libraries)
@@ -99,7 +100,7 @@ From Metropole to jungle village...
 Your API is pretty much the only bottleneck!
 But that's awesome, since we've eliminated every other administrational burden, with just dropping our app to Cloudflare.
 
-Cloudflare are able to catch spikes in traffic with ease.
+Cloudflare is able to catch spikes in traffic with ease.
 Without Cloudflare, you would have to pay server traffic every time a user visits your app/page or downloads or updates the app.
 
 If the free tier of most as-a-service/api providers is used up, many developers regret some of their decisions due to the complexity of the huge amount of connected environments that developers in the pre-Jamstack time were facing.
@@ -112,7 +113,8 @@ We recommend Digitalocean's STRAPI Basic Droplet: 2 CPU, 2 GB RAM, 2 Terabyte tr
 Another Terabyte comes for another cheap 10$. (est. 1 billion API requests)
 
 From there, if you are growing bigger and bigger, your one and only task is "only" scaling your API server.
-That's it.
+
+That's it. This will only become an issue again when your business is so big that you actually have the funds to solve the problem.
 All the other stuff, thats usually connected with running an app or even a platform, is done.
 
 You can focus on design and code and nothing else. (...and API server scaling...)

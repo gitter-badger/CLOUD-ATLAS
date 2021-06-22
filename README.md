@@ -15,7 +15,7 @@ But at the same time, we are buidling our own app "The Cloud Atlas" on the same 
 - Transform your profit-based business ideas (like the one that you maybe came with to this repository) into a decentralized, sustainable non-profit business, reaching a worldwide audience in only 1.8 secs each user, for only 10$ a month each project.(estimated 2 billion API requests montly, est. 1 billion more for 10$, more details look up #Deployment)
 - Brainstorm how to transform your business idea into a decentralized, sustainable non-profit business with individuals and non-profit, for-profit, and institutional representatives who share your interest…
 - Get crowdfundings and donations for your decentralized, sustainable non-profit business ideas and running projects
-- Let your sustainable non-profit business crash through the ceiling with connecting your PWA to the Cloud-Atlas and other PWAs, through an either centralized or decentralized API...
+- Let your sustainable non-profit business crash through the ceiling with connecting your PWA to the Cloud-Atlas and other PWAs, through an either centralized or decentralized API (under development)...
 
 ## PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit
 (React and Material UI - dropping the original lit and FAST libraries)
@@ -46,7 +46,7 @@ PWABuilder.com is an awesome page providing all resources, for drag and drop & c
 - A 100 on [Lighthouse](https://developers.google.com/web/tools/lighthouse/), giving you a great starting point for performance and accessibility.
 - Includes the [PWABuilder pwa-install component](https://github.com/pwa-builder/pwa-install#pwa-install) for an app store like PWA install experience.
 - [Workbox](https://developers.google.com/web/tools/workbox/) for service workers along with the [PWABuilder pwa-update component](https://github.com/pwa-builder/pwa-update#pwa-update) to give your PWA a great offline experience.
-- Includes [PWABuilder pwa-auth](https://github.com/pwa-builder/pwa-auth) web component. This component lets your users sign-in/sign-up using their Google, Apple, or Facebook account. Your app receives their email address, name, and profile picture. (coming soon)
+- Includes [PWABuilder pwa-auth](https://github.com/pwa-builder/pwa-auth) web component. This component lets your users sign-in/sign-up using their Google, Apple, or Facebook account. Your app receives their email address, name, and profile picture.
 - Includes a blank mainscreen with a map and a blank menu with an open/close animation. 
 
 Everything's ready to your demand...

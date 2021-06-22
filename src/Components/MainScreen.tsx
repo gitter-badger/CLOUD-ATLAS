@@ -33,14 +33,14 @@ const MainScreen: React.FunctionComponent<IMainScreenProps> = ({
 
   return (
     <div className={`mainScreen full ${classes.mainScreen}`}>
-      {!isLoggedIn && (
+      {!isLoggedIn && <NotLoggedInView setIsLoggedIn={setIsLoggedIn} />}
+
+      {isLoggedIn && (
         <>
+          <LoggedInView />
           <MenuIconOpen setShowMenu={setShowMenu} />
-          <NotLoggedInView setIsLoggedIn={setIsLoggedIn} />
         </>
       )}
-
-      {isLoggedIn && <LoggedInView />}
     </div>
   );
 };

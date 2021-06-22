@@ -1,8 +1,8 @@
-## **[Live Demo](https://cloud-atlas.org)**
+## **<a href="https://cloud-atlas.org" target="_blank">Live Demo</a>**
 (it's the same package with the same 87 points on pwa-builder.com, but we dropped the pwa-starter example page from our package and made it React + Material UI compatible)
 
 # Why the non-commercial license model?
-
+<a href="https://cloud-atlas.org" target="_blank">Live Demo</a>
 World Peace Engine Labs's existing and upcoming companies, apps, publishings, products, projects, and code, are always licensed by the following two licenses,
 to provide the maximum freedom of usage, but restricted to non-profit purposes only.
 

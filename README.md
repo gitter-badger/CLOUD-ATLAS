@@ -17,6 +17,10 @@ But at the same time, we are buidling our own app "The Cloud Atlas" on the same 
 - Get crowdfundings and donations for your decentralized, sustainable non-profit business ideas and running projects (coming later)
 - Let your sustainable non-profit business crash through the ceiling with connecting your PWA to the Cloud-Atlas and other PWAs, through an either centralized or decentralized or hybrid API (under development)...
 
+## WYSIWYG React Editor coming...
+Check out Clutch.io and join the waitlist. I checked out around 20 WYSIWYG solutions for React and Bootstrap, all of them where either jailing you in their system or missing essential features.
+Informations are spare, because Clutch is in open beta, but if luck is on our side, we will get a full blown coding IDE, with visual UI editor for React Apps, and live-data while coding, from our self hosted API.
+
 ## PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit
 (React and Material UI - dropping the original lit and FAST libraries)
 

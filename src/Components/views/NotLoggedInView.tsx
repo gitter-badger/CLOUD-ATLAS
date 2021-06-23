@@ -1,29 +1,32 @@
 import React from 'react';
-import { Grid, makeStyles } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core';
 import { useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
-import { DefaultTheme } from '@material-ui/styles';
 import LoginPane from 'src/Components/views/not-logged-in/LoginPane';
 import GlobeImage from './not-logged-in/globe.png';
 
-const styles = makeStyles<DefaultTheme, { isSmallDevice: boolean }>({
+const styles = makeStyles({
   root: {
     height: '100%',
     position: 'relative',
   },
-  imagePane: ({ isSmallDevice }) => ({
-    height: isSmallDevice ? '60vh' : '100%',
+  imagePane: {
     display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    alignContent: 'center',
-    padding: '50px',
-  }),
-  globeImage: ({ isSmallDevice }) => ({
+  },
+  globeImage: {
     width: 'auto',
-    height: 'auto',
-    maxHeight: isSmallDevice ? '100%' : '80vh',
-  }),
+    height: 'calc(100% - 30px)',
+    maxHeight: 'calc(100vh - 30px)',
+    maxWidth: 'calc(100vw - 30px)',
+    padding: '15px',
+    margin: 'auto',
+  },
+  loginPane: {
+    position: 'absolute',
+    right: '15px',
+    left: '15px',
+    bottom: '15px',
+  },
   loginPaneLargeScreen: {
     position: 'absolute',
     right: '40px',
@@ -44,21 +47,21 @@ const NotLoggedInView: React.FunctionComponent<INotLoggedInViewProps> = ({
     `(max-width: ${theme.breakpoints.values.md}px)`
   );
 
-  const classes = styles({ isSmallDevice });
+  const classes = styles();
 
   return (
-    <Grid container={true} spacing={0} classes={{ root: classes.root }}>
-      <Grid item={true} xs={12} className={classes.imagePane}>
+    <div className={classes.root}>
+      <div className={classes.imagePane}>
         <img src={GlobeImage} className={classes.globeImage} />
-      </Grid>
-      <Grid
-        item={true}
-        xs={12}
-        className={!isSmallDevice ? classes.loginPaneLargeScreen : undefined}
+      </div>
+      <div
+        className={
+          isSmallDevice ? classes.loginPane : classes.loginPaneLargeScreen
+        }
       >
         <LoginPane setIsLoggedIn={setIsLoggedIn} />
-      </Grid>
-    </Grid>
+      </div>
+    </div>
   );
 };
 

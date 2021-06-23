@@ -1,7 +1,30 @@
 import React, { useEffect } from 'react';
-import { Viewer, Ion, createDefaultImageryProviderViewModels } from 'cesium';
+import {
+  createDefaultImageryProviderViewModels,
+  Ion,
+  Viewer,
+  Cartesian3,
+  CustomDataSource,
+} from 'cesium';
 import { makeStyles } from '@material-ui/core';
 import appConfig from 'src/getConfig';
+
+const getLocationFromNavigator = (): Promise<GeolocationPosition> => {
+  return new Promise((resolve, reject) => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          resolve(position);
+        },
+        (error) => {
+          reject(error);
+        }
+      );
+    } else {
+      reject(new Error('Geolocation is not supported by this browser.'));
+    }
+  });
+};
 
 const styles = makeStyles({
   container: {
@@ -16,23 +39,47 @@ const styles = makeStyles({
 const CesiumMap: React.FunctionComponent = () => {
   const containerId = 'cesiumContainer';
 
-  // @ts-expect-error we never touch the variable again
   let viewer: Viewer;
   useEffect(() => {
-    Ion.defaultAccessToken = appConfig.app.cesium.accessToken;
+    void (async (): Promise<void> => {
+      let userLocation = null;
 
-    const viewModels = createDefaultImageryProviderViewModels();
-    const openStreetMapModelIndex = viewModels.findIndex((model) =>
-      model.iconUrl.includes('openStreetMap')
-    );
+      try {
+        userLocation = await getLocationFromNavigator();
+      } catch (error) {
+        // Ignore user decline
+      }
 
-    viewer = new Viewer(containerId, {
-      ...appConfig.app.cesium,
-      selectedImageryProviderViewModel:
-        openStreetMapModelIndex === -1
-          ? viewModels[0]
-          : viewModels[openStreetMapModelIndex],
-    });
+      // Set custom token
+      Ion.defaultAccessToken = appConfig.app.cesium.accessToken;
+
+      // Get the index of OpenStreetMap provider to select it first
+      const viewModels = createDefaultImageryProviderViewModels();
+      const openStreetMapModelIndex = viewModels.findIndex((model) =>
+        model.iconUrl.includes('openStreetMap')
+      );
+
+      viewer = new Viewer(containerId, {
+        ...appConfig.app.cesium,
+        selectedImageryProviderViewModel:
+          openStreetMapModelIndex === -1
+            ? viewModels[0]
+            : viewModels[openStreetMapModelIndex],
+      });
+
+      if (userLocation !== null) {
+        const source = new CustomDataSource();
+        await viewer.dataSources.add(source);
+
+        viewer.camera.flyTo({
+          destination: Cartesian3.fromDegrees(
+            userLocation.coords.longitude,
+            userLocation.coords.latitude,
+            1005.0
+          ),
+        });
+      }
+    })();
   });
 
   const classes = styles();

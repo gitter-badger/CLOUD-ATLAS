@@ -9,9 +9,10 @@ import { DefaultTheme } from '@material-ui/styles';
 
 const styles = makeStyles<DefaultTheme, { isSmallDevice: boolean }>({
   pane: ({ isSmallDevice }) => ({
-    padding: isSmallDevice ? '0 30px' : '80px 30px',
+    padding: isSmallDevice ? '30px 30px' : '80px 30px',
     backgroundColor: '#ffffff',
     borderRadius: '10px',
+    boxShadow: '0px 0px 30px rgb(0 0 0 / 15%)',
   }),
   paneItem: {
     'marginBottom': '20px',

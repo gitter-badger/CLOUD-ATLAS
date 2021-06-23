@@ -68,16 +68,28 @@ const CesiumMap: React.FunctionComponent = () => {
       });
 
       if (userLocation !== null) {
+        const userDestination = Cartesian3.fromDegrees(
+          userLocation.coords.longitude,
+          userLocation.coords.latitude,
+          1005.0
+        );
+
         const source = new CustomDataSource();
         await viewer.dataSources.add(source);
 
-        viewer.camera.flyTo({
-          destination: Cartesian3.fromDegrees(
-            userLocation.coords.longitude,
-            userLocation.coords.latitude,
-            1005.0
-          ),
-        });
+        // Focus the destination once
+        viewer.camera.flyTo({ destination: userDestination });
+
+        // Fly to the destination if the user presses the home button
+        viewer.homeButton.viewModel.command.beforeExecute.addEventListener(
+          (e) => {
+            e.cancel = true;
+
+            viewer.camera.flyTo({
+              destination: userDestination,
+            });
+          }
+        );
       }
     })();
   });

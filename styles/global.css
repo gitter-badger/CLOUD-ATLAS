@@ -41,7 +41,7 @@ html, body {
  * Note: Using body as parent here to get a stronger selector and overwriting cesium CSS without !important
  */
 body .cesium-viewer-toolbar {
-  top: 30px;
-  left: 30px;
+  top: 25px;
+  left: 25px;
   right: auto;
 }

@@ -9,13 +9,14 @@
 
 # CLOUD.ATLAS
 
-## My own dapp Cloud.Atlas (under development), basing on the Starter Kit, will give access to a decentralized global tile server, for free access to map tiles for your location based apps and a [Virtual Online Encyclopedia](https://worldpeaceengine.org) of a very special kind ;) splitted on the app's users phones and the blockchain.
+## My own dapp Cloud.Atlas (under development), basing on the PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit, will give access to a decentralized global tile server, for free access to map tiles for your location based apps and a [Virtual Online Encyclopedia](https://worldpeaceengine.org) of a very special kind ;) splitted on the app's users phones and the blockchain.
 
-## The classic version runs for 10$ a month on 200 fast CDN servers worldwide, with estimated 2 billion API requests included. (more under DEPLOYMENT AND PACKAGING)
+## The classic version (this repository) runs for 10$ a month on 200 fast CDN servers worldwide, with estimated 2 billion API requests included. (more under DEPLOYMENT AND PACKAGING)
+
 ## The coming P2P version will run faster, more reliable, more democratic ([Proof of Humanity](https://www.proofofhumanity.id/)) more privacy/data-security guaranteed by concept (even You can't see your users data, like in classic), will handle traffic peaks (like in classic), scales itself, has no bandwidth limitation, and is free...
 
 # THE INTERNET IS DEAD - WELCOME TO THE DINTERNET
-## Get inspired what is possible by this serverless DAPP PWA [Satellite.im](https://satellite.im/)
+## Get inspired by this serverless DAPP PWA [Satellite.im](https://satellite.im/)
 
 # <a href="https://cloud-atlas.org" target="_blank">LIVE DEMO</a> (Google login only)
 (it's the same package with the same 87 points on pwa-builder.com, but we dropped the pwa-starter example page from our package and made it React + Material UI compatible)

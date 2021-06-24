@@ -1,8 +1,8 @@
 # The power of a decentralized Google MAPS & EARTH for your next cross-plattform app/website
 
-## While working on the classic Starter Kit (Jamstack, code on Github, react front-end on CDN, back-end API vserver) for the developer and entrepreneur community, I’m engineering a so-called dapp.
+## While working on the classic Starter Kit (Jamstack, code on Github, react front-end on CDN, API vserver as back-end) for the developer and entrepreneur community, I’m engineering a so-called dapp.
 
-## This is a decentralized app, where the back-end will run client-side, split Peer-to-Peer on your app's users devices and partly on the Ethereum blockchain, but i am actually having an eye on Solana.
+## A dapp is a decentralized app, where the back-end will run client-side, split Peer-to-Peer on your app's users devices and partly on the Ethereum blockchain, but i am actually having an eye on Solana.
 
 ## So everybody who wants to start an app with location-based services, will get a free PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit with [Cesium](https://cesium.com/platform/cesiumjs/) integrated and will have access to a free global tile server, splitted on the users phones and the blockchain.
 

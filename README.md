@@ -1,7 +1,7 @@
 ## Looking to build a new [Progressive Web App](https://web.dev/progressive-web-apps/) and not sure where to get started?
 ## This is what you are looking for! The PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit with [Cesium](https://cesium.com/platform/cesiumjs/) integration includes everything you need to start building a production ready PWA with location-based services and follows all best practices.
 
-# The power of a decentralized Google Maps for your next cross-plattform app/website/business
+# The power of a decentralized Google Maps Platform for your next cross-plattform app/website/business
 
 ## While working on the classic Starter Kit for the developer and entrepreneur community (Jamstack, code on Github, react front-end on CDN, API vserver as back-end), I’m developing a DAPP-PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit to your command.
 
@@ -9,7 +9,7 @@
 
 # CLOUD.ATLAS
 
-## My own dapp Cloud.Atlas (under development), basing on the PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit, will give access to a decentralized global tile server, for free access to map tiles for your location based apps and a [Virtual Online Encyclopedia](https://worldpeaceengine.org) of a very special kind ;) splitted on the app's users phones and the blockchain.
+## My own dapp Cloud.Atlas (under development), basing on the PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit, will give access to a decentralized global tile server, for free access to map tiles for your location based apps and a [Virtual Online Encyclopedia](https://worldpeaceengine.org) of a very special kind ;) splitted on the app's users devices and the blockchain.
 
 ## The classic version (this repository) runs for 10$ a month on 200 fast CDN servers worldwide, with estimated 2 billion API requests included. (more under DEPLOYMENT AND PACKAGING)
 

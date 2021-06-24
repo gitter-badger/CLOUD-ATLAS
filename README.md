@@ -9,9 +9,8 @@
 ## The classic version runs for 10$ a month on 200 fast CDN servers worldwide, with estimated 2 billion API requests included. (more under DEPLOYMENT AND PACKAGING)
 ## The P2P version will run faster, more reliable, more democratic ([Proof of Humanity](https://www.proofofhumanity.id/)) more privacy/data-security guaranteed by concept (even You can't see your users data), will handle traffic peaks, scales itself, has no bandwidth limitation, and is free...
 
-## Get inspired by this IPFS DAPP [Satellite.im](https://satellite.im/)
-
 # THE INTERNET IS DEAD - WELCOME TO THE DINTERNET
+## Get inspired what is possible by this serverless DAPP [Satellite.im](https://satellite.im/)
 
 # <a href="https://cloud-atlas.org" target="_blank">LIVE DEMO</a> (Google login only)
 (it's the same package with the same 87 points on pwa-builder.com, but we dropped the pwa-starter example page from our package and made it React + Material UI compatible)

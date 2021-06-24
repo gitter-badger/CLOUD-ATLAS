@@ -1,4 +1,6 @@
-## Looking to build a new [Progressive Web App](https://web.dev/progressive-web-apps/) and not sure where to get started?
+# <a href="https://cloud-atlas.org" target="_blank">LIVE DEMO</a> (Google login only)
+
+# Looking to build a new [Progressive Web App](https://web.dev/progressive-web-apps/) and not sure where to get started?
 ## This is what you are looking for! The PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit with [Cesium](https://cesium.com/platform/cesiumjs/) integration includes everything you need to start building a production ready PWA with location-based services and follows all best practices.
 
 # The power of a decentralized Google Maps Platform for your next cross-plattform app/website/business
@@ -15,13 +17,7 @@
 
 ## The coming P2P version will run faster, more reliable, more democratic ([Proof of Humanity](https://www.proofofhumanity.id/)) more privacy/data-security guaranteed by concept (even You can't see your users data, like in classic), will handle traffic peaks (like in classic), scales itself, has no bandwidth limitation, and is free...
 
-# THE INTERNET IS DEAD - WELCOME TO THE DINTERNET
-## Get inspired by this serverless DAPP PWA [Satellite.im](https://satellite.im/)
-
-# <a href="https://cloud-atlas.org" target="_blank">LIVE DEMO</a> (Google login only)
-(it's the same package with the same 87 points on pwa-builder.com, but we dropped the pwa-starter example page from our package and made it React + Material UI compatible)
-
-## WYSIWYG React Editor coming!!! Public Beta opens June 2021
+# WYSIWYG React Editor coming!!! Public Beta opens June 2021
 Check out [Clutch.io](https://clutch.io) and join the waitlist. I checked out around 20 WYSIWYG solutions for React and Bootstrap, all of them where either jailing you in their system or missing essential features.
 Informations are spare, because Clutch is in open beta, but if luck is on our side, you will get a full-blown coding IDE, with visual UI editor for React Apps, and live data while coding, from your self-hosted API.
 

@@ -3,6 +3,9 @@
 # Looking to build a new [Progressive Web App](https://web.dev/progressive-web-apps/) and not sure where to get started?
 ## This is what you are looking for! The PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit with [Cesium](https://cesium.com/platform/cesiumjs/) integration includes everything you need to start building a production ready PWA with location-based services and follows all best practices.
 
+# Why PWA? Deep insight into the realm of PWA - The future of the internet and apps
+Progressive Web Apps - PWA Roadshow: https://youtu.be/z2JgN6Ae-Bo
+
 # The power of a decentralized Google Maps Platform for your next cross-plattform app/website/business
 
 ## While working on the classic Starter Kit for the developer and entrepreneur community (Jamstack, code on Github, react front-end on CDN, API vserver as back-end), I’m developing a DAPP-PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit to your command.
@@ -13,13 +16,9 @@
 
 ## My own dapp Cloud.Atlas (under development), basing on the PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit, will give access to a decentralized global tile server, for free access to map tiles for your location based apps and a [Virtual Online Encyclopedia](https://worldpeaceengine.org) of a very special kind ;) splitted on the app's users devices and the blockchain.
 
-## The classic version (this repository) runs for 10$ a month on 200 fast CDN servers worldwide, with estimated 2 billion API requests included. (more under DEPLOYMENT AND PACKAGING)
+## The classic version (this repository) runs for 10$ a month on 200 fast CDN servers worldwide, with estimated 2 billion API requests included. (more under DEPLOYMENT AND PACKAGING) ...and you will need a tile-server or tile API provider on the long term (the actual API key is for evaluation)
 
 ## The coming P2P version will run faster, more reliable, more democratic ([Proof of Humanity](https://www.proofofhumanity.id/)) more privacy/data-security guaranteed by concept (even You can't see your users data, like in classic), will handle traffic peaks (like in classic), scales itself, has no bandwidth limitation, and is free...
-
-# WYSIWYG React Editor coming!!! Public Beta opens June 2021
-Check out [Clutch.io](https://clutch.io) and join the waitlist. I checked out around 20 WYSIWYG solutions for React and Bootstrap, all of them where either jailing you in their system or missing essential features.
-Informations are spare, because Clutch is in open beta, but if luck is on our side, you will get a full-blown coding IDE, with visual UI editor for React Apps, and live data while coding, from your self-hosted API.
 
 # WHY THE NON-COMMERCIAL LICENSE MODEL?
 <a href="https://cloud-atlas.org" target="_blank">Live Demo</a>
@@ -49,9 +48,6 @@ A dapp can have frontend code and user interfaces written in any language (just 
 - Deterministic i.e., they perform the same function irrespective of the environment they are executed.
 - Turing complete, which means given the required resources, the dapp can perform any action.
 - Isolated, which means they are executed in a virtual environment known as Ethereum Virtual Machine so that if the smart contract happens to have a bug, it won’t hamper the normal functioning of the blockchain network.
-
-# Why PWA? Deep insight into the realm of PWA - The future of the internet and apps
-Progressive Web Apps - PWA Roadshow: https://youtu.be/z2JgN6Ae-Bo
 
 # THIS IS A HARDFORK OF PWA BUILDER
 (now React and Material UI - dropping the original lit and FAST libraries)
@@ -100,6 +96,10 @@ You will need the following things properly installed on your computer.
 You should also be familiar with [TypeScript](https://www.typescriptlang.org/) which we use for this project. This helps give you more guidance as you code from [intellisense](https://code.visualstudio.com/docs/editor/intellisense) when using [VSCode](https://code.visualstudio.com/).
 
 ### Recommended Development setup
+
+# WYSIWYG React Editor coming!!! Public Beta opens June 2021
+Check out [Clutch.io](https://clutch.io) and join the waitlist. I checked out around 20 WYSIWYG solutions for React and Bootstrap, all of them where either jailing you in their system or missing essential features.
+Informations are spare, because Clutch is in open beta, but if luck is on our side, you will get a full-blown coding IDE, with visual UI editor for React Apps, and live data while coding, from your self-hosted API.
 
 We recommend the following tools for your dev setup:
 

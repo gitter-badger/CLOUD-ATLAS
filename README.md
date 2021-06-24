@@ -1,11 +1,11 @@
-## **<a href="https://cloud-atlas.org" target="_blank">Live Demo</a>**
+# **<a href="https://cloud-atlas.org" target="_blank">LIVE DEMO</a>**
 (it's the same package with the same 87 points on pwa-builder.com, but we dropped the pwa-starter example page from our package and made it React + Material UI compatible)
 
 ## WYSIWYG React Editor coming!!! Public Beta opens June 2021
 Check out [Clutch.io](https://clutch.io) and join the waitlist. I checked out around 20 WYSIWYG solutions for React and Bootstrap, all of them where either jailing you in their system or missing essential features.
 Informations are spare, because Clutch is in open beta, but if luck is on our side, you will get a full-blown coding IDE, with visual UI editor for React Apps, and live data while coding, from your self-hosted API.
 
-# Why the non-commercial license model?
+# WHY THE NON-COMMERCIAL LICENSE MODEL?
 <a href="https://cloud-atlas.org" target="_blank">Live Demo</a>
 World Peace Engine Labs's existing and upcoming companies, apps, publishings, products, projects, and code, are always licensed by the following two licenses,
 to provide the maximum freedom of usage, but restricted to non-profit purposes only.
@@ -14,7 +14,7 @@ https://github.com/worldpeaceenginelabs/PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Ki
 + Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 + MIT License (altered to non-profit version)
 
-## This is part of [#decentralized-non-profit-as-a-service](https://worldpeaceengine.org/decentralized-non-profit-as-a-service/)
+# THIS IS PART OF [#DECENTRALIZED-NON-PROFIT-AS-A-SERVICE](https://worldpeaceengine.org/decentralized-non-profit-as-a-service/)
 
 We are building a PWA Starter Kit for the [Jamstack](https://jamstack.org/), restricted to non-profit purposes only.
 But at the same time, we are buidling our own app Cloud.Atlas on the same codebase, where you are able to do the following amongst many other things:
@@ -24,16 +24,26 @@ But at the same time, we are buidling our own app Cloud.Atlas on the same codeba
 - Get crowdfundings and donations for your decentralized, sustainable non-profit business ideas and running projects (coming later)
 - Let your sustainable non-profit business crash through the ceiling with connecting your PWA to the Cloud.Atlas and other PWAs, decentralized with [IPFS InterPlanetary File Sytem](https://ipfs.io/) (under development)...
 
+# DEFINITION OF A DAPP- What is a DAPP?
+A dapp has its backend code running on a decentralized peer-to-peer network. Contrast this with an app where the backend code is running on centralized servers.
+
+A dapp can have frontend code and user interfaces written in any language (just like an app) that can make calls to its backend. Furthermore, its frontend can be hosted on decentralized storage such as IPFS.
+
+- Decentralized means they are independent, and no one can control them as a group.
+- Deterministic i.e., they perform the same function irrespective of the environment they are executed.
+- Turing complete, which means given the required resources, the dapp can perform any action.
+- Isolated, which means they are executed in a virtual environment known as Ethereum Virtual Machine so that if the smart contract happens to have a bug, it won’t hamper the normal functioning of the blockchain network.
+
+# Why PWA? Deep insight into the realm of PWA - The future of the internet and apps
+Progressive Web Apps - PWA Roadshow: https://youtu.be/z2JgN6Ae-Bo
+
 ## PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit
 (React and Material UI - dropping the original lit and FAST libraries)
 
 Looking to build a new [Progressive Web App](https://web.dev/progressive-web-apps/) and not sure where to get started?
 This is what you are looking for! The PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit includes everything you need to start building a production ready PWA and follows all best practices.
 
-## Why PWA? Deep insight into the realm of PWA - The future of the internet and apps
-Progressive Web Apps - PWA Roadshow: https://youtu.be/z2JgN6Ae-Bo
-
-## This is a HARDFORK of PWA Builder
+# THIS IS A HARDFORK OF PWA BUILDER
 
 PWA Builder is an awesome project of a handful Microsoft developers providing a great entree for building a PWA.
 
@@ -47,7 +57,7 @@ You can check anytime how many PWA Points your actual app/page has on (https://w
 
 PWABuilder.com is an awesome page providing all resources, for drag and drop & copy and paste a manifest or service worker scripts and many well explained snippets for additional native app like features.
  
-## You will get:
+# YOU WILL GET
 
 - lazy-loaded routes using [@vaadin/router](https://vaadin.com/router).
 - A 100 on [Lighthouse](https://developers.google.com/web/tools/lighthouse/), giving you a great starting point for performance and accessibility.
@@ -60,7 +70,7 @@ Everything's ready to your demand...
 
 **[Live Demo](https://cloud-atlas.org)** (it's the same package with the same 87 points on pwa-builder.com, but we dropped the pwa-starter example page from our package and made it React + Material UI compatible)
 
-## Getting Started
+# GETTING STARTED
 
 ### Supported Browsers
 
@@ -93,7 +103,7 @@ Run `npm install` and then run `npm run dev`, the starter should open in your de
 
 Run `npm run build`, the `dist/` folder will contain your built PWA. The production build will also generate a pre-caching service worker using [Workbox](https://developers.google.com/web/tools/workbox/modules/workbox-precaching).
 
-## Deployment and Packaging
+# DEPLOYMENT AND PACKAGING
 
 ### Front-end Deployment
 
@@ -114,7 +124,7 @@ If the free tier of most as-a-service/api providers is used up, many developers 
 
 Now it's reduced to only a front-end in the framework/language you prefer, and an API back-end that is also replaceable.
 
-### Back-end Deployment
+### Back-end Deployment (centralized server)
 
 We recommend Digitalocean's STRAPI Basic Droplet: 2 CPU, 2 GB RAM, 2 Terabyte traffic included (est. 2 billion API requests) for 10$ a month.
 Another Terabyte comes for another cheap 10$. (est. 1 billion API requests)
@@ -128,15 +138,20 @@ You can focus on design and code and nothing else. (...and API server scaling...
 
 Cheers.
 
+### Back-end Deployment (decentralized IPFS, OrbitDB)
+Under Development...
+
+# OTHER FEATURES
+
 ### Packaging
 
 Many app stores, including the Microsoft Store and the Google Play Store support PWAs. To package your PWA for deployment to these app stores head back to https://pwabuilder.com/, put in your URL and hit `Build My PWA`.
 
-## Dual Screen support
+### Dual Screen support
 
 The default layout of this starter is dual screen friendly. We do this [here](https://github.com/pwa-builder/pwa-starter/blob/master/src/script/pages/app-home.ts#L41) by using the [CSS Spanning API](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/master/Foldables/explainer.md#proposal-css-primitives-for-building-dual-screen-layouts) to adjust the layout when the app is spanned on a dual screen device. As you start to build your PWA you can use these CSS features to ensure that your PWA looks good in all of the [dual screen postures](https://docs.microsoft.com/en-us/dual-screen/introduction#dual-screen-overview). For more info on developing PWAs for dual screen devices you can check out the [Microsoft docs here](https://docs.microsoft.com/en-us/dual-screen/cross-platform/#build-web-experiences).
 
-## Folder Structure
+# Folder Structure
 
 ```
 pwa-starter

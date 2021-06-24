@@ -39,7 +39,7 @@ But at the same time, we are buidling our own app Cloud.Atlas on the same codeba
 - Get crowdfundings and donations for your decentralized, sustainable non-profit business ideas and running projects (coming later)
 - Let your sustainable non-profit business crash through the ceiling with connecting your PWA to the Cloud.Atlas and other PWAs, decentralized with [IPFS InterPlanetary File Sytem](https://ipfs.io/) (under development)...
 
-# DEFINITION OF A DAPP- What is a DAPP?
+# DEFINITION OF A DAPP - What is a DAPP?
 A dapp has its backend code running on a decentralized peer-to-peer network. Contrast this with an app where the backend code is running on centralized servers.
 
 A dapp can have frontend code and user interfaces written in any language (just like an app) that can make calls to its backend. Furthermore, its frontend can be hosted on decentralized storage such as IPFS.

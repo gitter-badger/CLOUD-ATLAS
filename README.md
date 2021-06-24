@@ -1,13 +1,18 @@
+## Looking to build a new [Progressive Web App](https://web.dev/progressive-web-apps/) and not sure where to get started?
+## This is what you are looking for! The PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit includes everything you need to start building a production ready PWA and follows all best practices.
+
 # The power of a decentralized Google MAPS & EARTH for your next cross-plattform app/website
 
-## While working on the classic Starter Kit (Jamstack, code on Github, react front-end on CDN, API vserver as back-end) for the developer and entrepreneur community, I’m engineering a so-called dapp.
+## While working on the classic Starter Kit for the developer and entrepreneur community (Jamstack, code on Github, react front-end on CDN, API vserver as back-end), I’m developing a DAPP-PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit to your command.
 
 ## A dapp is a decentralized app, where the back-end will run client-side, split Peer-to-Peer on your app's users devices and partly on the Ethereum blockchain, but i am actually having an eye on Solana.
 
-## So everybody who wants to start an app with location-based services, will get a free PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit with [Cesium](https://cesium.com/platform/cesiumjs/) integrated and will have access to a free global tile server, splitted on the users phones and the blockchain.
+## So everybody who wants to start an app with location-based services, will get a free PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit with [Cesium](https://cesium.com/platform/cesiumjs/) integrated.
+
+## My own dappand will have access to a free global tile server, splitted on the users phones and the blockchain.
 
 ## The classic version runs for 10$ a month on 200 fast CDN servers worldwide, with estimated 2 billion API requests included. (more under DEPLOYMENT AND PACKAGING)
-## The P2P version will run faster, more reliable, more democratic ([Proof of Humanity](https://www.proofofhumanity.id/)) more privacy/data-security guaranteed by concept (even You can't see your users data), will handle traffic peaks, scales itself, has no bandwidth limitation, and is free...
+## The P2P version will run faster, more reliable, more democratic ([Proof of Humanity](https://www.proofofhumanity.id/)) more privacy/data-security guaranteed by concept (even You can't see your users data, already integrated in the classic version), will handle traffic peaks, scales itself, has no bandwidth limitation, and is free...
 
 # THE INTERNET IS DEAD - WELCOME TO THE DINTERNET
 ## Get inspired what is possible by this serverless DAPP PWA [Satellite.im](https://satellite.im/)
@@ -54,8 +59,7 @@ Progressive Web Apps - PWA Roadshow: https://youtu.be/z2JgN6Ae-Bo
 ## PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit
 (React and Material UI - dropping the original lit and FAST libraries)
 
-Looking to build a new [Progressive Web App](https://web.dev/progressive-web-apps/) and not sure where to get started?
-This is what you are looking for! The PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit includes everything you need to start building a production ready PWA and follows all best practices.
+
 
 # THIS IS A HARDFORK OF PWA BUILDER
 

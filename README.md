@@ -1,18 +1,18 @@
 ## Looking to build a new [Progressive Web App](https://web.dev/progressive-web-apps/) and not sure where to get started?
-## This is what you are looking for! The PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit includes everything you need to start building a production ready PWA and follows all best practices.
+## This is what you are looking for! The PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit with [Cesium](https://cesium.com/platform/cesiumjs/) integration includes everything you need to start building a production ready PWA with location-based services and follows all best practices.
 
-# The power of a decentralized Google MAPS & EARTH for your next cross-plattform app/website
+# The power of a decentralized Google Maps for your next cross-plattform app/website/business
 
 ## While working on the classic Starter Kit for the developer and entrepreneur community (Jamstack, code on Github, react front-end on CDN, API vserver as back-end), I’m developing a DAPP-PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit to your command.
 
 ## A dapp is a decentralized app, where the back-end will run client-side, split Peer-to-Peer on your app's users devices and partly on the Ethereum blockchain, but i am actually having an eye on Solana.
 
-## So everybody who wants to start an app with location-based services, will get a free PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit with [Cesium](https://cesium.com/platform/cesiumjs/) integrated.
+# CLOUD.ATLAS
 
-## My own dappand will have access to a free global tile server, splitted on the users phones and the blockchain.
+## My own dapp Cloud.Atlas (under development), basing on the Starter Kit, will give access to a decentralized global tile server, for free access to map tiles for your location based apps and a [Virtual Online Encyclopedia](https://worldpeaceengine.org) of a very special kind ;) splitted on the app's users phones and the blockchain.
 
 ## The classic version runs for 10$ a month on 200 fast CDN servers worldwide, with estimated 2 billion API requests included. (more under DEPLOYMENT AND PACKAGING)
-## The P2P version will run faster, more reliable, more democratic ([Proof of Humanity](https://www.proofofhumanity.id/)) more privacy/data-security guaranteed by concept (even You can't see your users data, already integrated in the classic version), will handle traffic peaks, scales itself, has no bandwidth limitation, and is free...
+## The coming P2P version will run faster, more reliable, more democratic ([Proof of Humanity](https://www.proofofhumanity.id/)) more privacy/data-security guaranteed by concept (even You can't see your users data, like in classic), will handle traffic peaks (like in classic), scales itself, has no bandwidth limitation, and is free...
 
 # THE INTERNET IS DEAD - WELCOME TO THE DINTERNET
 ## Get inspired what is possible by this serverless DAPP PWA [Satellite.im](https://satellite.im/)
@@ -56,12 +56,8 @@ A dapp can have frontend code and user interfaces written in any language (just 
 # Why PWA? Deep insight into the realm of PWA - The future of the internet and apps
 Progressive Web Apps - PWA Roadshow: https://youtu.be/z2JgN6Ae-Bo
 
-## PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit
-(React and Material UI - dropping the original lit and FAST libraries)
-
-
-
 # THIS IS A HARDFORK OF PWA BUILDER
+(now React and Material UI - dropping the original lit and FAST libraries)
 
 PWA Builder is an awesome project of a handful Microsoft developers providing a great entree for building a PWA.
 

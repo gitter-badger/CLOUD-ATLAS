@@ -6,8 +6,10 @@
 
 ## So everybody who wants to start an app with location-based services, will get a free PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit with [Cesium](https://cesium.com/platform/cesiumjs/) integrated and will have access to a free global tile server, splitted on the users phones and the blockchain.
 
-## The classic version runs for 10$ a month on 200 fast CDN servers worldwide, with estimated 2 billion API requests included.
-## The P2P version would run faster, more reliable, more democratic ([Proof of Humanity](https://www.proofofhumanity.id/)) more privacy/data-security guaranteed by concept (even You can't see your users data), could handle traffic peaks, scales itself, has no bandwidth limitation and is free...
+## The classic version runs for 10$ a month on 200 fast CDN servers worldwide, with estimated 2 billion API requests included. (more under DEPLOYMENT AND PACKAGING)
+## The P2P version will run faster, more reliable, more democratic ([Proof of Humanity](https://www.proofofhumanity.id/)) more privacy/data-security guaranteed by concept (even You can't see your users data), will handle traffic peaks, scales itself, has no bandwidth limitation, and is free...
+
+## Get inspired by this IPFS DAPP [Satellite.im](https://satellite.im/)
 
 # THE INTERNET IS DEAD - WELCOME TO THE DINTERNET
 
@@ -124,7 +126,7 @@ Once your PWA is ready to deploy you can deploy/host it anywhere.
 
 We recommend Cloudflare.com (0€ Basic plan, unlimited pages, unlimited bandwidth and 500 deploys a month)
 
-Your static, but API refreshed app, will be deployed to 200 servers worldwide, loading your app in an average of 1.8 sec in every corner around the globe.
+Your static, but from the API fed dynamic app, will be deployed to 200 servers worldwide, loading your app in an average of 1.8 sec in every corner around the globe.
 From Metropole to jungle village...
 
 Your API is pretty much the only bottleneck!
@@ -142,9 +144,11 @@ Now it's reduced to only a front-end in the framework/language you prefer, and a
 We recommend Digitalocean's STRAPI Basic Droplet: 2 CPU, 2 GB RAM, 2 Terabyte traffic included (est. 2 billion API requests) for 10$ a month.
 Another Terabyte comes for another cheap 10$. (est. 1 billion API requests)
 
+If you need more power, there is a Linux VServer with insane 10 CPU, 48 GB RAM, 800 GB SSD, unlimited traffic for 20€ a month at [Strato](https://www.strato.de/server/linux-vserver/)
+
 From there, if you are growing bigger and bigger, your one and only task is "only" scaling your API server.
 
-That's it. This will only become an issue again when your business is so big that you actually have the funds to solve the problem.
+That's it. API scaling will become an issue when your business is so big that you actually have the funds to solve the problem.
 All the other stuff, thats usually connected with running an app or even a platform, is done.
 
 You can focus on design and code and nothing else. (...and API server scaling...)
@@ -152,7 +156,7 @@ You can focus on design and code and nothing else. (...and API server scaling...
 Cheers.
 
 ### Back-end Deployment (decentralized IPFS, OrbitDB)
-Under Development...
+Same concept, but scales itself... Under Development...
 
 # OTHER FEATURES
 

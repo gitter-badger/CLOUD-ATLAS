@@ -11,7 +11,7 @@
 
 # THE INTERNET IS DEAD - WELCOME TO THE DINTERNET
 
-# **<a href="https://cloud-atlas.org" target="_blank">LIVE DEMO</a>**
+# <a href="https://cloud-atlas.org" target="_blank">LIVE DEMO</a> (Google login only)
 (it's the same package with the same 87 points on pwa-builder.com, but we dropped the pwa-starter example page from our package and made it React + Material UI compatible)
 
 ## WYSIWYG React Editor coming!!! Public Beta opens June 2021

@@ -1,3 +1,16 @@
+# A decentralized Google MAPS & EARTH for your next app
+
+## While working on the classic Starter Kit (Jamstack, code on Github, react front-end on CDN, back-end API vserver) for the developer and entrepreneur community, I’m engineering a so-called dapp.
+
+## This is a decentralized app, where the back-end will run client-side, split Peer-to-Peer on your app's users devices and partly on the Ethereum blockchain, but i am actually having an eye on Solana.
+
+## So everybody who wants to start an app with location-based services, would get a free PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit with [Cesium](https://cesium.com/platform/cesiumjs/) integrated and will have access to a free global tile server, splitted on the users phones and the blockchain.
+
+## The classic version runs for 10$ a month on 200 fast CDN servers worldwide, with estimated 2 billion API requests included.
+## The P2P version would run faster, more reliable, more democratic ([Proof of Humanity](https://www.proofofhumanity.id/)) more privacy/data-security guaranteed by concept (even You can't see your users data), could handle traffic peaks, scales itself, has no bandwidth limitation and is free...
+
+# THE INTERNET IS DEAD - WELCOME TO THE DINTERNET
+
 # **<a href="https://cloud-atlas.org" target="_blank">LIVE DEMO</a>**
 (it's the same package with the same 87 points on pwa-builder.com, but we dropped the pwa-starter example page from our package and made it React + Material UI compatible)
 

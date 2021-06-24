@@ -1,4 +1,4 @@
-# A decentralized Google MAPS & EARTH for your next app
+# The power of a decentralized Google MAPS & EARTH for your next cross-plattform app/website
 
 ## While working on the classic Starter Kit (Jamstack, code on Github, react front-end on CDN, back-end API vserver) for the developer and entrepreneur community, I’m engineering a so-called dapp.
 

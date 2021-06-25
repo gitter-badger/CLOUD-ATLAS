@@ -1,6 +1,6 @@
 {
   "name": "Cloud Atlas",
-  "display": "fullscreen",
+  "display": "standalone",
   "start_url": "/",
   "short_name": "Cloud Atlas",
   "theme_color": "#FFFFFF",

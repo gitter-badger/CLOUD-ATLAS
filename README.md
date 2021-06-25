@@ -1,4 +1,4 @@
-# <a href="https://cloud-atlas.org" target="_blank">LIVE DEMO</a> (Google login only)
+# <a href="https://cloud-atlas.org" target="_blank">LIVE DEMO</a> (Google login only) 
 
 # Looking to build a new [Progressive Web App](https://web.dev/progressive-web-apps/) and not sure where to get started?
 ## This is what you are looking for! The PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit with [Cesium](https://cesium.com/platform/cesiumjs/) integration includes everything you need to start building a production ready PWA with location-based services and follows all best practices.

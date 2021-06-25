@@ -92,7 +92,7 @@ const CesiumMap: React.FunctionComponent = () => {
         );
       }
     })();
-  });
+  }, []);
 
   const classes = styles();
 

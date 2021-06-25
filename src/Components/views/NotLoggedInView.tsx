@@ -7,25 +7,25 @@ import GlobeImage from './not-logged-in/globe.png';
 
 const styles = makeStyles({
   root: {
+    display: 'flex',
     height: '100%',
+    flexDirection: 'column',
     position: 'relative',
   },
   imagePane: {
+    flex: '1',
     display: 'flex',
   },
   globeImage: {
     width: 'auto',
-    height: 'calc(100% - 30px)',
     maxHeight: 'calc(100vh - 30px)',
     maxWidth: 'calc(100vw - 30px)',
     padding: '15px',
     margin: 'auto',
   },
   loginPane: {
-    position: 'absolute',
-    right: '15px',
-    left: '15px',
-    bottom: '15px',
+    flex: '0',
+    padding: '0 15px 15px 15px',
   },
   loginPaneLargeScreen: {
     position: 'absolute',

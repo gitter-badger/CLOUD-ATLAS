@@ -26,7 +26,7 @@ Progressive Web Apps - PWA Roadshow: https://youtu.be/z2JgN6Ae-Bo
 World Peace Engine Labs's existing and upcoming companies, apps, publishings, products, projects, and code, are always licensed by the World Peace Engine Labs License,
 to provide the maximum freedom of usage, but restricted to non-profit purposes only.
 
-The World Peace Engine Labs license consists of two well-known licenses. The MIT license is restricted to non-profit purposes.
+The World Peace Engine Labs license consists of two well-known licenses. The MIT license is altered, restricted to non-profit purposes only.
 https://github.com/worldpeaceenginelabs/PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit/blob/main/LICENSE.txt
 + Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 + MIT License (altered to non-profit version)

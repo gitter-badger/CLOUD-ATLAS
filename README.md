@@ -52,13 +52,13 @@ A dapp can have frontend code and user interfaces written in any language (just 
 # THIS IS A HARDFORK OF PWA BUILDER
 (now React and Material UI - dropping the original lit and FAST libraries)
 
-PWA Builder is an awesome project of a handful Microsoft developers providing a great entree for building a PWA.
+PWA Builder is an awesome project, a collaboration of a handful Microsoft and Google developers, providing a great entree for building a PWA.
 
-You can check anytime how many PWA Points your actual app/page has on (https://www.pwabuilder.com/)
+You can check anytime how many PWA points your actual app/page has on (https://www.pwabuilder.com/)
 
-+ Twitter PWA 94 point
-+ PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit 87 points
-+ Google Map's PWA 83 points
++ Twitter PWA 190 point
++ Google Maps PWA has now 180 points
++ PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit (this repository) 130 points (pwabuilder shows you how to improve this score)
 
 ...so this is a good repository to start with.
 

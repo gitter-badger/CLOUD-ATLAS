@@ -23,10 +23,10 @@ Progressive Web Apps - PWA Roadshow: https://youtu.be/z2JgN6Ae-Bo
 ## The coming P2P version will run faster, more reliable, more democratic ([Proof of Humanity](https://www.proofofhumanity.id/)) more privacy/data-security guaranteed by concept (even You can't see your users data, like in classic), will handle traffic peaks (like in classic), scales itself, has no bandwidth limitation, and is free...
 
 # WHY THE NON-COMMERCIAL LICENSE MODEL?
-<a href="https://cloud-atlas.org" target="_blank">Live Demo</a>
-World Peace Engine Labs's existing and upcoming companies, apps, publishings, products, projects, and code, are always licensed by the following two licenses,
+World Peace Engine Labs's existing and upcoming companies, apps, publishings, products, projects, and code, are always licensed by the World Peace Engine Labs License,
 to provide the maximum freedom of usage, but restricted to non-profit purposes only.
 
+The World Peace Engine Labs license consists of two well-known licenses. The MIT license is restricted to non-profit purposes.
 https://github.com/worldpeaceenginelabs/PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit/blob/main/LICENSE.txt
 + Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 + MIT License (altered to non-profit version)

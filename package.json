@@ -1,7 +1,7 @@
 {
   "name": "Cloud.Atlas",
   "version": "0.0.1",
-  "description": "Time to connect the dots...",
+  "description": "a Virtual Online Encyclopedia, a free global map tile server,  a starter-kit for your next non-profit business idea",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -3,6 +3,8 @@
 # Looking to build a new [Progressive Web App](https://web.dev/progressive-web-apps/) and not sure where to get started?
 ## This is what you are looking for! The PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit with [Cesium](https://cesium.com/platform/cesiumjs/) integration includes everything you need to start building a production ready PWA with location-based services and follows all best practices.
 
+## If you already have an app/website check out [pwabuilder.com](https://pwabuilder.com) They provide all tools to get your existing repo on the PWA track. Don't forget to check out their blog. These guys from Microsoft and Google definitly know what they are doing.
+
 # Why PWA? Deep insight into the realm of PWA - The future of the internet and apps
 Progressive Web Apps - PWA Roadshow: https://youtu.be/z2JgN6Ae-Bo
 

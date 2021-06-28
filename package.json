@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production rimraf build/ && rollup --config rollup.config.js && node workbox.mjs",
-    "dev": "NODE_ENV=development concurrently \"rollup --config rollup.config.js --watch\" \"web-dev-server --app-index build/index.html --root-dir build/ --compatibility none --node-resolve --watch --open /\"",
-    "start": "npm run build"
+    "dev": "NODE_ENV=development concurrently \"rollup --config rollup.config.js --watch\" \"web-dev-server --app-index build/index.html --root-dir build/ --compatibility none --node-resolve --watch --open /\""
   },
   "author": "",
   "license": "ISC",

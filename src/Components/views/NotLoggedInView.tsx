@@ -8,7 +8,7 @@ import GlobeImage from './not-logged-in/globe.png';
 const styles = makeStyles({
   root: {
     display: 'flex',
-    height: '100%',
+    height: '100vh',
     flexDirection: 'column',
     position: 'relative',
   },

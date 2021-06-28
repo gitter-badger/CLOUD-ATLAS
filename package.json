@@ -2,7 +2,7 @@
   "name": "Cloud.Atlas",
   "version": "0.0.1",
   "description": "a Virtual Online Encyclopedia, a free global map tile server,  a starter-kit for your next non-profit business idea",
-  "main": "index.js",
+  "main": "build/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production rimraf build/ && rollup --config rollup.config.js && node workbox.mjs",

@@ -97,10 +97,6 @@ You should also be familiar with [TypeScript](https://www.typescriptlang.org/) w
 
 ### Recommended Development setup
 
-# WYSIWYG React Editor coming!!! Public Beta opens June 2021
-Check out [Clutch.io](https://clutch.io) and join the waitlist. I checked out around 20 WYSIWYG solutions for React and Bootstrap, all of them where either jailing you in their system or missing essential features.
-Informations are spare, because Clutch is in open beta, but if luck is on our side, you will get a full-blown coding IDE, with visual UI editor for React Apps, and live data while coding, from your self-hosted API.
-
 We recommend the following tools for your dev setup:
 
 * Editor: [VSCode](https://code.visualstudio.com/)

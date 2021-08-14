@@ -78,7 +78,7 @@ const CesiumMap: React.FunctionComponent = () => {
         await viewer.dataSources.add(source);
 
         // Focus the destination once
-        viewer.camera.flyTo({ destination: userDestination });
+        //viewer.camera.flyTo({ destination: userDestination });
 
         // Fly to the destination if the user presses the home button
         viewer.homeButton.viewModel.command.beforeExecute.addEventListener(

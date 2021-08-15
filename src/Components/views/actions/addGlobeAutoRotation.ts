@@ -12,8 +12,6 @@ const addGlobeAutoRotation = (viewer: Viewer, rotationSpeed: number): void => {
       viewer.scene.globe.ellipsoid
     );
 
-    console.log('On move', { mousePosition, cartesian });
-
     if (!cartesian) {
       startRotation(viewer, rotationSpeed);
       return;
@@ -21,6 +19,8 @@ const addGlobeAutoRotation = (viewer: Viewer, rotationSpeed: number): void => {
 
     stopRotation();
   });
+
+  startRotation(viewer, rotationSpeed);
 };
 
 export default addGlobeAutoRotation;

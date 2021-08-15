@@ -4,10 +4,13 @@ import {
   Ion,
   Viewer,
   Cartesian3,
-  CustomDataSource,
 } from 'cesium';
 import { makeStyles } from '@material-ui/core';
 import appConfig from 'src/getConfig';
+import addToggleZoomToUserLocation from 'src/Components/views/actions/addToggleZoomToUserLocation';
+import addUserLocationInteraction from 'src/Components/views/actions/addUserLocationInteraction';
+import useHasMouseSupport from 'src/hooks/useHasMouseSupport';
+import addGlobeAutoRotation from 'src/Components/views/actions/addGlobeAutoRotation';
 
 const getLocationFromNavigator = (): Promise<GeolocationPosition> => {
   return new Promise((resolve, reject) => {
@@ -36,13 +39,17 @@ const styles = makeStyles({
   },
 });
 
-const CesiumMap: React.FunctionComponent = () => {
-  const containerId = 'cesiumContainer';
+let viewer: Viewer;
+let userLocationCartesian: Cartesian3 | null;
+const containerId = 'cesiumContainer';
+const userLocationPointId = 'user-location';
 
-  let viewer: Viewer;
+const CesiumMap: React.FunctionComponent = () => {
+  const hasMouseSupport = useHasMouseSupport();
+
   useEffect(() => {
     void (async (): Promise<void> => {
-      let userLocation = null;
+      let userLocation: GeolocationPosition | null = null;
 
       try {
         userLocation = await getLocationFromNavigator();
@@ -61,38 +68,40 @@ const CesiumMap: React.FunctionComponent = () => {
 
       viewer = new Viewer(containerId, {
         ...appConfig.app.cesium,
+        shouldAnimate: true,
         selectedImageryProviderViewModel:
           openStreetMapModelIndex === -1
             ? viewModels[0]
             : viewModels[openStreetMapModelIndex],
       });
+      viewer.scene.screenSpaceCameraController.enableTilt = false;
 
       if (userLocation !== null) {
-        const userDestination = Cartesian3.fromDegrees(
+        userLocationCartesian = Cartesian3.fromDegrees(
           userLocation.coords.longitude,
           userLocation.coords.latitude,
-          1005.0
+          appConfig.app.zoomHeightUser * 1000
         );
 
-        const source = new CustomDataSource();
-        await viewer.dataSources.add(source);
-
-        // Focus the destination once
-        //viewer.camera.flyTo({ destination: userDestination });
-
-        // Fly to the destination if the user presses the home button
-        viewer.homeButton.viewModel.command.beforeExecute.addEventListener(
-          (e) => {
-            e.cancel = true;
-
-            viewer.camera.flyTo({
-              destination: userDestination,
-            });
-          }
+        addUserLocationInteraction(
+          viewer,
+          userLocation,
+          userLocationCartesian,
+          userLocationPointId
         );
       }
+
+      addToggleZoomToUserLocation(
+        viewer,
+        userLocationPointId,
+        userLocationCartesian
+      );
+
+      if (hasMouseSupport && appConfig.app.enableGlobeAutoRotation) {
+        addGlobeAutoRotation(viewer, appConfig.app.globeRotationSpeed);
+      }
     })();
-  }, []);
+  }, [hasMouseSupport]);
 
   const classes = styles();
 

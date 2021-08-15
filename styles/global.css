@@ -14,23 +14,20 @@ body {
   background: #181818;
 }
 
+body {
+  min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+
 @media (prefers-color-scheme: light) {
   html,
   body {
     background: #edebe9;
-  }
-
-  fast-design-system-provider {
-    color: black;
-    --background-color: #edebe9;
-    --neutral-foreground-rest: #e5e5e5;
-    --neutral-fill-input-rest: #e5e5e5;
-    --neutral-fill-input-hover: white;
-    --neutral-fill-stealth-rest: #e5e5e5;
-
-    --neutral-fill-rest: #5d5d5d;
-
-    --neutral-fill-input-active: #e5e5e5;
   }
 }
 
@@ -42,4 +39,22 @@ body .cesium-viewer-toolbar {
   top: 25px;
   left: 25px;
   right: auto;
+}
+
+/**
+ * The map-style overlay is right-aligned to the toolbar, which is shorter than Cesium expect.
+ * We left align it which, after we adjust some inner styling too, perfectly on smaller screens
+ */
+body .cesium-baseLayerPicker-dropDown {
+  left: 0;
+  width: 300px;
+}
+body .cesium-baseLayerPicker-choices {
+  border: 0 none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+body .cesium-baseLayerPicker-item {
+  margin: 0;
 }

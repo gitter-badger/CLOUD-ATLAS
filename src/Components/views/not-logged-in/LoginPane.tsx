@@ -3,9 +3,8 @@ import { makeStyles } from '@material-ui/core';
 import GoogleLoginButton from 'src/Components/provider-login-button/GoogleLoginButton';
 import FacebookLoginButton from 'src/Components/provider-login-button/FacebookLoginButton';
 import AppleLoginButton from 'src/Components/provider-login-button/AppleLoginButton';
-import { useTheme } from '@material-ui/core/styles';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { DefaultTheme } from '@material-ui/styles';
+import useIsSmallDevice from 'src/hooks/useIsSmallDevice';
 
 const styles = makeStyles<DefaultTheme, { isSmallDevice: boolean }>({
   pane: ({ isSmallDevice }) => ({
@@ -30,10 +29,7 @@ interface INotLoggedInViewProps {
 const LoginPane: React.FunctionComponent<INotLoggedInViewProps> = ({
   setIsLoggedIn,
 }) => {
-  const theme = useTheme();
-  const isSmallDevice = useMediaQuery(
-    `(max-width: ${theme.breakpoints.values.md}px)`
-  );
+  const isSmallDevice = useIsSmallDevice();
 
   const classes = styles({ isSmallDevice });
 

@@ -1,14 +1,13 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core';
-import { useTheme } from '@material-ui/core/styles';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
 import LoginPane from 'src/Components/views/not-logged-in/LoginPane';
 import GlobeImage from './not-logged-in/globe.png';
+import useIsSmallDevice from 'src/hooks/useIsSmallDevice';
 
 const styles = makeStyles({
   root: {
     display: 'flex',
-    height: '100%',
+    height: '100vh',
     flexDirection: 'column',
     position: 'relative',
   },
@@ -42,10 +41,7 @@ interface INotLoggedInViewProps {
 const NotLoggedInView: React.FunctionComponent<INotLoggedInViewProps> = ({
   setIsLoggedIn,
 }) => {
-  const theme = useTheme();
-  const isSmallDevice = useMediaQuery(
-    `(max-width: ${theme.breakpoints.values.md}px)`
-  );
+  const isSmallDevice = useIsSmallDevice();
 
   const classes = styles();
 

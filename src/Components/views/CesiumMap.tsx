@@ -4,10 +4,14 @@ import {
   Ion,
   Viewer,
   Cartesian3,
-  CustomDataSource,
+  Color,
+  Cartesian2,
 } from 'cesium';
 import { makeStyles } from '@material-ui/core';
 import appConfig from 'src/getConfig';
+import createPulsatingPoint from 'src/utils/cesium/createPulsatingPoint';
+import pickEntity from 'src/utils/cesium/pickEntity';
+import getCameraPositionWithNewHeight from 'src/utils/cesium/getCameraPositionWithNewHeight';
 
 const getLocationFromNavigator = (): Promise<GeolocationPosition> => {
   return new Promise((resolve, reject) => {
@@ -36,13 +40,16 @@ const styles = makeStyles({
   },
 });
 
-const CesiumMap: React.FunctionComponent = () => {
-  const containerId = 'cesiumContainer';
+let viewer: Viewer;
+let userDestination: Cartesian3 | null;
+let zoomOutOnLocationClick = false;
+const containerId = 'cesiumContainer';
+const userLocationPointId = 'user-location';
 
-  let viewer: Viewer;
+const CesiumMap: React.FunctionComponent = () => {
   useEffect(() => {
     void (async (): Promise<void> => {
-      let userLocation = null;
+      let userLocation: GeolocationPosition | null = null;
 
       try {
         userLocation = await getLocationFromNavigator();
@@ -61,6 +68,7 @@ const CesiumMap: React.FunctionComponent = () => {
 
       viewer = new Viewer(containerId, {
         ...appConfig.app.cesium,
+        shouldAnimate: true,
         selectedImageryProviderViewModel:
           openStreetMapModelIndex === -1
             ? viewModels[0]
@@ -69,21 +77,32 @@ const CesiumMap: React.FunctionComponent = () => {
       viewer.scene.screenSpaceCameraController.enableTilt = false;
 
       if (userLocation !== null) {
-        const userDestination = Cartesian3.fromDegrees(
+        userDestination = Cartesian3.fromDegrees(
           userLocation.coords.longitude,
           userLocation.coords.latitude,
-          1005.0
+          appConfig.app.zoomHeightUser * 1000
         );
 
-        const source = new CustomDataSource();
-        await viewer.dataSources.add(source);
-
-        // Focus the destination once
-        //viewer.camera.flyTo({ destination: userDestination });
+        viewer.entities.add(
+          createPulsatingPoint(
+            viewer,
+            userLocationPointId,
+            Cartesian3.fromDegrees(
+              userLocation.coords.longitude,
+              userLocation.coords.latitude,
+              0
+            ),
+            Color.CORNFLOWERBLUE
+          )
+        );
 
         // Fly to the destination if the user presses the home button
         viewer.homeButton.viewModel.command.beforeExecute.addEventListener(
-          (e) => {
+          (e: { cancel: boolean }) => {
+            if (!userDestination) {
+              return;
+            }
+
             e.cancel = true;
 
             viewer.camera.flyTo({
@@ -93,6 +112,34 @@ const CesiumMap: React.FunctionComponent = () => {
         );
       }
     })();
+
+    window.addEventListener('click', (event: MouseEvent) => {
+      if (!userDestination) {
+        return;
+      }
+
+      const clickPosition = new Cartesian2(event.x, event.y);
+      const pickedEntity = pickEntity(viewer, clickPosition);
+
+      if (pickedEntity?.id !== userLocationPointId) {
+        return;
+      }
+
+      if (zoomOutOnLocationClick) {
+        viewer.camera.flyTo({
+          destination: getCameraPositionWithNewHeight(
+            viewer,
+            appConfig.app.zoomHeightStart
+          ),
+        });
+      } else {
+        viewer.camera.flyTo({
+          destination: userDestination,
+        });
+      }
+
+      zoomOutOnLocationClick = !zoomOutOnLocationClick;
+    });
   }, []);
 
   const classes = styles();

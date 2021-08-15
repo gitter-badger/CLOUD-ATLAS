@@ -12,5 +12,7 @@
     "selectionIndicator": false,
     "timeline": false,
     "navigationHelpButton": false
-  }
+  },
+  "zoomHeightUser": 1,
+  "zoomHeightStart": 20000
 }

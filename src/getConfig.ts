@@ -22,6 +22,16 @@ interface IGlobalAppConfiguration {
       timeline: boolean;
       navigationHelpButton: boolean;
     };
+    /**
+     * The height in kilometer the camera will fly to after the user clicked
+     * on its location marker
+     */
+    zoomHeightUser: number;
+    /**
+     * The height in kilometer the camera will fly to after the user clicked
+     * the second time on its location marker
+     */
+    zoomHeightStart: number;
   };
 }
 

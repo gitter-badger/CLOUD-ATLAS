@@ -40,3 +40,21 @@ body .cesium-viewer-toolbar {
   left: 25px;
   right: auto;
 }
+
+/**
+ * The map-style overlay is right-aligned to the toolbar, which is shorter than Cesium expect.
+ * We left align it which, after we adjust some inner styling too, perfectly on smaller screens
+ */
+body .cesium-baseLayerPicker-dropDown {
+  left: 0;
+  width: 300px;
+}
+body .cesium-baseLayerPicker-choices {
+  border: 0 none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+body .cesium-baseLayerPicker-item {
+  margin: 0;
+}

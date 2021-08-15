@@ -6,6 +6,7 @@ import { useTheme } from '@material-ui/core/styles';
 import { makeStyles } from '@material-ui/core';
 import { DefaultTheme } from '@material-ui/styles';
 import LoggedInView from 'src/Components/views/LoggedInView';
+import NotLoggedInMobileView from 'src/Components/views/mobile/NotLoggedInMobileView';
 
 interface IMainScreenProps {
   setShowMenu: (state: boolean) => void;
@@ -30,6 +31,21 @@ const MainScreen: React.FunctionComponent<IMainScreenProps> = ({
   );
 
   const classes = styles({ isSmallDevice });
+
+  if (isSmallDevice) {
+    return (
+      <div className={`mainScreen full ${classes.mainScreen}`}>
+        {!isLoggedIn && <NotLoggedInMobileView setIsLoggedIn={setIsLoggedIn} />}
+
+        {isLoggedIn && (
+          <>
+            <LoggedInView />
+            <MenuIconOpen setShowMenu={setShowMenu} />
+          </>
+        )}
+      </div>
+    );
+  }
 
   return (
     <div className={`mainScreen full ${classes.mainScreen}`}>

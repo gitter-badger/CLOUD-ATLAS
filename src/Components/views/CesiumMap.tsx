@@ -66,6 +66,7 @@ const CesiumMap: React.FunctionComponent = () => {
             ? viewModels[0]
             : viewModels[openStreetMapModelIndex],
       });
+      viewer.scene.screenSpaceCameraController.enableTilt = false;
 
       if (userLocation !== null) {
         const userDestination = Cartesian3.fromDegrees(

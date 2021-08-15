@@ -32,6 +32,12 @@ interface IGlobalAppConfiguration {
      * the second time on its location marker
      */
     zoomHeightStart: number;
+
+    /**
+     * True if the globe should auto rotate while the user doesn't hover the globe.
+     * Only available on devices with mouse support (desktop)
+     */
+    enableGlobeAutoRotation: boolean;
     /**
      * Rotation speed for the globe during auto rotation (mouse hover on space).
      *

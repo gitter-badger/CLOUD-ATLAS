@@ -1,9 +1,14 @@
 import { Cartesian3, Viewer } from 'cesium';
 
+let rotationPaused = false;
 let lastNow: number | null = null;
-let eventHandler: () => void;
+let eventHandler: (() => void) | null = null;
 
 const doRotate = (viewer: Viewer, rotationSpeed: number) => {
+  if (rotationPaused) {
+    return;
+  }
+
   const now = Date.now();
   // Positiv: rotates from left to right
   const spinRate = rotationSpeed;
@@ -15,14 +20,21 @@ const doRotate = (viewer: Viewer, rotationSpeed: number) => {
 };
 
 const startRotation = (viewer: Viewer, rotationSpeed = 0.5) => {
+  // Already added, just continue the loop
+  if (eventHandler !== null) {
+    lastNow = Date.now();
+    rotationPaused = false;
+    return;
+  }
+
   lastNow = Date.now();
   eventHandler = () => doRotate(viewer, rotationSpeed);
 
   viewer.scene.postRender.addEventListener(eventHandler);
 };
 
-const stopRotation = (viewer: Viewer) => {
-  viewer.scene.postRender.removeEventListener(eventHandler);
+const stopRotation = () => {
+  rotationPaused = true;
 };
 
 export { startRotation, stopRotation };

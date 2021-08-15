@@ -7,9 +7,10 @@ import {
 } from 'cesium';
 import { makeStyles } from '@material-ui/core';
 import appConfig from 'src/getConfig';
-import toggleZoomToUserLocation from 'src/Components/views/actions/toggleZoomToUserLocation';
-import { startRotation } from 'src/utils/cesium/globeRotation';
+import addToggleZoomToUserLocation from 'src/Components/views/actions/addToggleZoomToUserLocation';
 import addUserLocationInteraction from 'src/Components/views/actions/addUserLocationInteraction';
+import useHasMouseSupport from 'src/hooks/useHasMouseSupport';
+import addGlobeAutoRotation from 'src/Components/views/actions/addGlobeAutoRotation';
 
 const getLocationFromNavigator = (): Promise<GeolocationPosition> => {
   return new Promise((resolve, reject) => {
@@ -44,6 +45,8 @@ const containerId = 'cesiumContainer';
 const userLocationPointId = 'user-location';
 
 const CesiumMap: React.FunctionComponent = () => {
+  const hasMouseSupport = useHasMouseSupport();
+
   useEffect(() => {
     void (async (): Promise<void> => {
       let userLocation: GeolocationPosition | null = null;
@@ -88,15 +91,17 @@ const CesiumMap: React.FunctionComponent = () => {
         );
       }
 
-      toggleZoomToUserLocation(
+      addToggleZoomToUserLocation(
         viewer,
         userLocationPointId,
         userLocationCartesian
       );
 
-      startRotation(viewer, appConfig.app.globeRotationSpeed);
+      if (hasMouseSupport && appConfig.app.enableGlobeAutoRotation) {
+        addGlobeAutoRotation(viewer, appConfig.app.globeRotationSpeed);
+      }
     })();
-  }, []);
+  }, [hasMouseSupport]);
 
   const classes = styles();
 

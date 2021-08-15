@@ -5,7 +5,7 @@ import appConfig from 'src/getConfig';
 
 let zoomOutOnLocationClick = false;
 
-const toggleZoomToUserLocation = (
+const addToggleZoomToUserLocation = (
   viewer: Viewer,
   userLocationPointId: string,
   userDestination: Cartesian3 | null
@@ -39,4 +39,4 @@ const toggleZoomToUserLocation = (
   });
 };
 
-export default toggleZoomToUserLocation;
+export default addToggleZoomToUserLocation;

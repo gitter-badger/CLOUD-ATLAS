@@ -15,5 +15,6 @@
   },
   "zoomHeightUser": 1,
   "zoomHeightStart": 20000,
+  "enableGlobeAutoRotation": true,
   "globeRotationSpeed": -0.25
 }

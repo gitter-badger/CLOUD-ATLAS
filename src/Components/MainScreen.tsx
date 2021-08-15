@@ -1,12 +1,11 @@
 import React from 'react';
 import MenuIconOpen from 'src/Components/menu/MenuIconOpen';
 import NotLoggedInView from 'src/Components/views/NotLoggedInView';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
-import { useTheme } from '@material-ui/core/styles';
 import { makeStyles } from '@material-ui/core';
 import { DefaultTheme } from '@material-ui/styles';
 import LoggedInView from 'src/Components/views/LoggedInView';
 import NotLoggedInMobileView from 'src/Components/views/mobile/NotLoggedInMobileView';
+import useIsSmallDevice from 'src/hooks/useIsSmallDevice';
 
 interface IMainScreenProps {
   setShowMenu: (state: boolean) => void;
@@ -25,10 +24,7 @@ const MainScreen: React.FunctionComponent<IMainScreenProps> = ({
   setIsLoggedIn,
   isLoggedIn,
 }) => {
-  const theme = useTheme();
-  const isSmallDevice = useMediaQuery(
-    `(max-width: ${theme.breakpoints.values.md}px)`
-  );
+  const isSmallDevice = useIsSmallDevice();
 
   const classes = styles({ isSmallDevice });
 

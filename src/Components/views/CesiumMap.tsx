@@ -4,14 +4,12 @@ import {
   Ion,
   Viewer,
   Cartesian3,
-  Color,
-  Cartesian2,
 } from 'cesium';
 import { makeStyles } from '@material-ui/core';
 import appConfig from 'src/getConfig';
-import createPulsatingPoint from 'src/utils/cesium/createPulsatingPoint';
-import pickEntity from 'src/utils/cesium/pickEntity';
-import getCameraPositionWithNewHeight from 'src/utils/cesium/getCameraPositionWithNewHeight';
+import toggleZoomToUserLocation from 'src/Components/views/actions/toggleZoomToUserLocation';
+import { startRotation } from 'src/utils/cesium/globeRotation';
+import addUserLocationInteraction from 'src/Components/views/actions/addUserLocationInteraction';
 
 const getLocationFromNavigator = (): Promise<GeolocationPosition> => {
   return new Promise((resolve, reject) => {
@@ -41,8 +39,7 @@ const styles = makeStyles({
 });
 
 let viewer: Viewer;
-let userDestination: Cartesian3 | null;
-let zoomOutOnLocationClick = false;
+let userLocationCartesian: Cartesian3 | null;
 const containerId = 'cesiumContainer';
 const userLocationPointId = 'user-location';
 
@@ -77,69 +74,28 @@ const CesiumMap: React.FunctionComponent = () => {
       viewer.scene.screenSpaceCameraController.enableTilt = false;
 
       if (userLocation !== null) {
-        userDestination = Cartesian3.fromDegrees(
+        userLocationCartesian = Cartesian3.fromDegrees(
           userLocation.coords.longitude,
           userLocation.coords.latitude,
           appConfig.app.zoomHeightUser * 1000
         );
 
-        viewer.entities.add(
-          createPulsatingPoint(
-            viewer,
-            userLocationPointId,
-            Cartesian3.fromDegrees(
-              userLocation.coords.longitude,
-              userLocation.coords.latitude,
-              0
-            ),
-            Color.CORNFLOWERBLUE
-          )
-        );
-
-        // Fly to the destination if the user presses the home button
-        viewer.homeButton.viewModel.command.beforeExecute.addEventListener(
-          (e: { cancel: boolean }) => {
-            if (!userDestination) {
-              return;
-            }
-
-            e.cancel = true;
-
-            viewer.camera.flyTo({
-              destination: userDestination,
-            });
-          }
+        addUserLocationInteraction(
+          viewer,
+          userLocation,
+          userLocationCartesian,
+          userLocationPointId
         );
       }
+
+      toggleZoomToUserLocation(
+        viewer,
+        userLocationPointId,
+        userLocationCartesian
+      );
+
+      startRotation(viewer, appConfig.app.globeRotationSpeed);
     })();
-
-    window.addEventListener('click', (event: MouseEvent) => {
-      if (!userDestination) {
-        return;
-      }
-
-      const clickPosition = new Cartesian2(event.x, event.y);
-      const pickedEntity = pickEntity(viewer, clickPosition);
-
-      if (pickedEntity?.id !== userLocationPointId) {
-        return;
-      }
-
-      if (zoomOutOnLocationClick) {
-        viewer.camera.flyTo({
-          destination: getCameraPositionWithNewHeight(
-            viewer,
-            appConfig.app.zoomHeightStart
-          ),
-        });
-      } else {
-        viewer.camera.flyTo({
-          destination: userDestination,
-        });
-      }
-
-      zoomOutOnLocationClick = !zoomOutOnLocationClick;
-    });
   }, []);
 
   const classes = styles();

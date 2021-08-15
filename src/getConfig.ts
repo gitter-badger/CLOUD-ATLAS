@@ -32,6 +32,13 @@ interface IGlobalAppConfiguration {
      * the second time on its location marker
      */
     zoomHeightStart: number;
+    /**
+     * Rotation speed for the globe during auto rotation (mouse hover on space).
+     *
+     * A negative value creates a rotation from right to left.
+     * A positive value creates a rotation from left to right.
+     */
+    globeRotationSpeed: number;
   };
 }
 

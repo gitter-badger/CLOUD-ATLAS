@@ -14,5 +14,6 @@
     "navigationHelpButton": false
   },
   "zoomHeightUser": 1,
-  "zoomHeightStart": 20000
+  "zoomHeightStart": 20000,
+  "globeRotationSpeed": -0.25
 }

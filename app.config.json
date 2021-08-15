@@ -13,7 +13,7 @@
     "timeline": false,
     "navigationHelpButton": false
   },
-  "zoomHeightUser": 1,
+  "zoomHeightUser": 5,
   "zoomHeightStart": 20000,
   "enableGlobeAutoRotation": true,
   "globeRotationSpeed": -0.25

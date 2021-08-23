@@ -1,10 +1,10 @@
 {
-  "name": "Cloud Atlas",
+  "name": "Cloud.Atlas",
   "display": "standalone",
   "start_url": "/",
-  "short_name": "Cloud Atlas - Time to connect the dots...",
+  "short_name": "Cloud.Atlas - Time to connect the dots...",
   "theme_color": "#FFFFFF",
-  "description": "The Metaverse for a planetary, collective computer.",
+  "description": "The client app for the metaverse of the planetary, collective computer Cloud.Atlas.",
   "orientation": "portrait",
   "background_color": "#FFFFFF",
   "related_applications": [],

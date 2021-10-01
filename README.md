@@ -12,15 +12,15 @@ Progressive Web Apps - PWA Roadshow: https://youtu.be/z2JgN6Ae-Bo
 
 ## While working on the classic Starter Kit for the developer and entrepreneur community (Jamstack, code on Github, react front-end on CDN, API vserver as back-end), I’m developing a DAPP-PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit to your command.
 
-## A dapp is a decentralized app, where the back-end will run client-side, split Peer-to-Peer on your app's users devices and partly on the Ethereum blockchain, but i am actually having an eye on Solana.
+## A dapp is a decentralized app, where the back-end/database in our case will run client-side, split Peer-to-Peer on your app's users devices. 
 
-# CLOUD.ATLAS
+# Decentralized Map Tile Server
 
-## My own dapp Cloud.Atlas (under development), basing on the PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit, will give access to a decentralized global tile server, for free access to map tiles for your location based apps and a [Virtual Online Encyclopedia](https://worldpeaceengine.org) of a very special kind ;) splitted on the app's users devices and the blockchain.
+## We will give access to a decentralized global tile server, for free access to map tiles for your location based apps.
 
-## The classic version (this repository) runs for 10$ a month on 200 fast CDN servers worldwide, with estimated 2 billion API requests included. (more under DEPLOYMENT AND PACKAGING) ...and you will need a tile-server or tile API provider on the long term (the actual API key is for evaluation)
+## The classic version (this repository) runs for 10$ a month on 200 fast CDN servers worldwide, with estimated 2 billion API requests included. (more under DEPLOYMENT AND PACKAGING) ...and you will need a tile-server or tile API provider on the long term (the actual API key is for evaluation only)
 
-## The coming P2P version will run faster, more reliable, more democratic ([Proof of Humanity](https://www.proofofhumanity.id/)) more privacy/data-security guaranteed by concept (even You can't see your users data, like in classic), will handle traffic peaks (like in classic), scales itself, has no bandwidth limitation, and is free...
+## The coming P2P version will run even faster, more reliable, more democratic ([Proof of Humanity](https://www.proofofhumanity.id/)) more privacy/data-security guaranteed by concept (even You can't see your app's users data, like already in classic), will handle traffic peaks (like in classic), scales itself, has no bandwidth limitation, and is free...
 
 # WHY THE NON-COMMERCIAL LICENSE MODEL?
 World Peace Engine Labs's existing and upcoming companies, apps, publishings, products, projects, and code, are always licensed by the World Peace Engine Labs License,

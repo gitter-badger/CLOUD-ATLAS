@@ -8,19 +8,7 @@
 # Why PWA? Deep insight into the realm of PWA - The future of the internet and apps
 Progressive Web Apps - PWA Roadshow: https://youtu.be/z2JgN6Ae-Bo
 
-# The power of a decentralized Google Maps Platform for your next cross-plattform app/website/business
-
-## While working on the classic Starter Kit for the developer and entrepreneur community (Jamstack, code on Github, react front-end on CDN, API vserver as back-end), I’m developing a DAPP-PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit to your command.
-
-## A dapp is a decentralized app, where the back-end/database in our case will run client-side, split Peer-to-Peer on your app's users devices. 
-
-# Decentralized Map Tile Server
-
-## We will give access to a decentralized global tile server, for free access to map tiles for your location based apps.
-
-## The classic version (this repository) runs for 10$ a month on 200 fast CDN servers worldwide, with estimated 2 billion API requests included. (more under DEPLOYMENT AND PACKAGING) ...and you will need a tile-server or tile API provider on the long term (the actual API key is for evaluation only)
-
-## The coming P2P version will run even faster, more reliable, more democratic ([Proof of Humanity](https://www.proofofhumanity.id/)) more privacy/data-security guaranteed by concept (even You can't see your app's users data, like already in classic), will handle traffic peaks (like in classic), scales itself, has no bandwidth limitation, and is free...
+## This repository will run for 10$ a month on 200 fast CDN servers worldwide, with estimated 2 billion API requests included. (more under DEPLOYMENT AND PACKAGING) ...and you will need a tile-server or tile API provider on the long term (the actual API key is for evaluation only)
 
 # WHY THE NON-COMMERCIAL LICENSE MODEL?
 World Peace Engine Labs's existing and upcoming companies, apps, publishings, products, projects, and code, are always licensed by the World Peace Engine Labs License,
@@ -159,34 +147,3 @@ Many app stores, including the Microsoft Store and the Google Play Store support
 ### Dual Screen support
 
 The default layout of this starter is dual screen friendly. We do this [here](https://github.com/pwa-builder/pwa-starter/blob/master/src/script/pages/app-home.ts#L41) by using the [CSS Spanning API](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/master/Foldables/explainer.md#proposal-css-primitives-for-building-dual-screen-layouts) to adjust the layout when the app is spanned on a dual screen device. As you start to build your PWA you can use these CSS features to ensure that your PWA looks good in all of the [dual screen postures](https://docs.microsoft.com/en-us/dual-screen/introduction#dual-screen-overview). For more info on developing PWAs for dual screen devices you can check out the [Microsoft docs here](https://docs.microsoft.com/en-us/dual-screen/cross-platform/#build-web-experiences).
-
-# Folder Structure
-
-```
-pwa-starter
-│   README.md (docs)
-│   rollup.config.js (bundler config https://rollupjs.org/)
-|   tsconfig.json (TypeScript config https://www.typescriptlang.org/)
-|   pwabuilder-sw.js (Service Worker https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
-|   package.json (https://docs.npmjs.com/creating-a-package-json-file)
-|   package-lock.json (https://docs.npmjs.com/files/package-lock.json)
-|   manifest.json (web manifest https://developer.mozilla.org/en-US/docs/Web/Manifest)
-|   index.prod.html (index.html file used for production builds)
-|   index.html (index.html for dev builds)
-|   *note*: The index.prod.html registers a service worker which caches assets, so index.html is used for dev builds
-|   .gitignore (git config file https://git-scm.com/docs/gitignore)
-│
-└───src (most of your development will happen here)
-│   │   global.css (used for global CSS styles and CSS variables)
-│   │ 
-|   └─────components
-|           |   MainScreen.jsx (component)
-|           |   Menu.jsx (component)
-|           |
-|           |
-|           └───pages
-|                 |   app.jsx (app component)
-|                 |   index.css (Stylesheets)
-|                 |   index.jsx (index component)
-
-```

@@ -24,7 +24,7 @@ https://github.com/worldpeaceenginelabs/PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Ki
 We are building a PWA Starter Kit for the [Jamstack](https://jamstack.org/), restricted to non-profit purposes only.
 But at the same time, we are buidling our own app Cloud.Atlas on the same codebase, where you are able to do the following amongst many other things:
 
-- Transform your profit-based business ideas (like the one that you maybe came with to this repository) into a decentralized, sustainable non-profit business, reaching a worldwide audience in only 1.8 secs each user, for only 10$ a month each project.(estimated 2 billion API requests montly, est. 1 billion more for 10$, more details look up #Deployment) (coming soon)
+- Transform your profit-based business ideas (like the one that you maybe came with to this repository) into a decentralized, sustainable non-profit business, reaching a worldwide audience in only 1.8 secs each user, for only 10$ a month each project.(estimated 2 billion API requests montly, est. 1 billion more for 10$ each, more details look up #Deployment)
 - Brainstorm how to transform your business idea into a decentralized, sustainable non-profit business with individuals and non-profit, for-profit, and institutional representatives who share your interest… (coming soon)
 - Get crowdfundings and donations for your decentralized, sustainable non-profit business ideas and running projects (coming later)
 - Let your sustainable non-profit business crash through the ceiling with connecting your PWA to the Cloud.Atlas and other PWAs, decentralized with [IPFS InterPlanetary File Sytem](https://ipfs.io/) (under development)...

@@ -1,4 +1,4 @@
-# <a href="https://cloud-atlas.org" target="_blank">LIVE DEMO</a> (Google login only) 
+# <a href="https://cloud-atlas.app" target="_blank">LIVE DEMO</a> (Google login only) 
 
 # Looking to build a new [Progressive Web App](https://web.dev/progressive-web-apps/) and not sure where to get started?
 ## This is what you are looking for! The PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit with [Cesium](https://cesium.com/platform/cesiumjs/) integration includes everything you need to start building a production ready PWA with location-based services and follows all best practices.
@@ -135,10 +135,8 @@ You can focus on design and code and nothing else. (...and API server scaling...
 
 Cheers.
 
-PS: For the Cloud Atlas we will use the selfscaling CockroachDB (manual actions neccessary), and later we will switch to using our users mobiles as nodes for the backend and the databases. (full automatic planetary scaling)
-
 ### Back-end Deployment (decentralized IPFS, OrbitDB)
-Same concept, but scales itself... Under Development...
+Same concept, but scales itself... For the Cloud Atlas we will use the selfscaling CockroachDB (manual actions neccessary), and later we will switch to using our users mobiles as nodes for the backend and the databases. (full automatic planetary scaling) Under Development...
 
 # OTHER FEATURES
 

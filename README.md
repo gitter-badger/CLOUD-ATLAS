@@ -135,6 +135,8 @@ You can focus on design and code and nothing else. (...and API server scaling...
 
 Cheers.
 
+PS: For the Cloud Atlas we will use the selfscaling CockroachDB (manual actions neccessary), and later we will switch to using our users mobiles as nodes for the backend and the databases. (full automatic planetary scaling)
+
 ### Back-end Deployment (decentralized IPFS, OrbitDB)
 Same concept, but scales itself... Under Development...
 

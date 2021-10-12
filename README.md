@@ -46,9 +46,9 @@ PWA Builder is an awesome project, a collaboration of a handful Microsoft and Go
 
 You can check anytime how many PWA points your actual app/page has on (https://www.pwabuilder.com/)
 
-+ Twitter PWA 190 point
-+ Google Maps PWA has now 180 points
-+ PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit (this repository) 130 points (pwabuilder shows you how to improve this score)
++ Twitter PWA 190 points
++ Google Maps PWA 180 points
++ PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit (this repository) 160 points (pwabuilder shows you how to improve this score)
 
 ...so this is a good repository to start with.
 

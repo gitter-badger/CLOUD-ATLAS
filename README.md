@@ -48,9 +48,10 @@ You can check anytime how many PWA points your actual app/page has on (https://w
 
 + Twitter PWA 190 points
 + Google Maps PWA 180 points
-+ PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit (this repository) 160 points (pwabuilder shows you how to improve this score)
++ PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit (this repository) 160 points
++ PWABuilder will show you how to improve this score up to or above Twitter's score, because the missing points of this repo are only related to stuff that you will set anyway as soon as your project goes into production.
 
-...so this is a good repository to start with.
+...so this is a good repository to start with ;)
 
 PWABuilder.com is an awesome page providing all resources, for drag and drop & copy and paste a manifest or service worker scripts and many well explained snippets for additional native app like features.
  

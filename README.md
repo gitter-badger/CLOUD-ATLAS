@@ -1,16 +1,21 @@
+![image](https://user-images.githubusercontent.com/67427045/147877266-f1716c63-f31a-4a0f-acc5-7ca1d966b9a5.png)
+<br><br>
 # !HELP WANTED!
 ## This is a so called Collective Computer. And  its becoming like from the movies. A computer which duty it is to support us the best way to work to better ourselves and the rest of humanity.
+<br><br>
 
-# Features 02.01.2022 stable
-## <a href="https://cloud-atlas.app" target="_blank">LIVE DEMO</a> (Google login only) 
+# Features 02.01.2022 stable <a href="https://cloud-atlas.app" target="_blank">LIVE DEMO</a> (Google login only)
+
 ## - Progressive Web App
 A !website! which runs like a full installed application on any browser ergo any device, can be installed like an app, and is able to get uploaded to all three stores.
 
 And all from the same codebase which is HTML, CSS, JS, React and Material-UI
+<br>
 
 ## - Cesium Globe
 A digtal twin of the real world. Exactly like Google Earth but open-source, with a hugh potential for literally everything.
 And I repeat myself saying: "why didn't Google ever did it?"
+<br><br>
 
 # Upcoming features:
 
@@ -20,13 +25,16 @@ And I repeat myself saying: "why didn't Google ever did it?"
 ## – ‘Petitions for Good’ (Solution Oriented Online Petitions)
 ## – ‘Crowdfund for Good’ (Solution Based Crowdfundings)
 ## – ‘Mission TV’ (Live streamings of ‘Social Time’, ‘P2P for Good’ and successfully finished ‘Crowdfund for Good’ campaigns with donation options and integrated live-chat, so that viewers become a part of the show…)
+<br>
 
 # The world to your (collective) command, a universal library with gaps but interaction options, a metaverse for your thoughts, a social network to become better, and even earning a profit with doing good.
+<br>
 
 # Upcoming technological features:
 
 ## - P2P Database
 ## - Ad-Hoc Connect/Install (Barcode, Wifi, Bluetooth, LowRa)
+<br>
 
 # Looking to build a new [Progressive Web App](https://web.dev/progressive-web-apps/) and not sure where to get started?
 ## This is what you are looking for! The PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit with [Cesium](https://cesium.com/platform/cesiumjs/) integration includes everything you need to start building a production ready PWA with location-based services and follows all best practices.

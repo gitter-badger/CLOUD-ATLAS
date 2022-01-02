@@ -78,7 +78,7 @@ A dapp can have frontend code and user interfaces written in any language (just 
 - Turing complete, which means given the required resources, the dapp can perform any action.
 - Isolated, which means they are executed in a virtual environment known as Ethereum Virtual Machine so that if the smart contract happens to have a bug, it won’t hamper the normal functioning of the blockchain network.
 
-# THIS IS A HARDFORK OF PWA BUILDER
+# THIS IS A modified HARDFORK OF PWA BUILDER
 (now React and Material UI - dropping the original lit and FAST libraries)
 
 PWA Builder is an awesome project, a collaboration of a handful Microsoft and Google developers, providing a great entree for building a PWA.

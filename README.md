@@ -13,7 +13,7 @@ And all from the same codebase which is HTML, CSS, JS, React and Material-UI
 <br>
 
 ## - Cesium Globe
-A digtal twin of the real world. Exactly like Google Earth but open-source, with a hugh potential for literally everything.
+A digital twin of the real world. Exactly like Google Earth but open-source, with a hugh potential for literally everything.
 And I repeat myself saying: "why didn't Google ever did it?"
 <br><br>
 

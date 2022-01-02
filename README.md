@@ -1,4 +1,32 @@
-# <a href="https://cloud-atlas.app" target="_blank">LIVE DEMO</a> (Google login only) 
+# !HELP WANTED!
+## This is a so called Collective Computer. And  its becoming like from the movies. A computer which duty it is to support us the best way to work to better ourselves and the rest of humanity.
+
+# Features 02.01.2022 stable
+## <a href="https://cloud-atlas.app" target="_blank">LIVE DEMO</a> (Google login only) 
+## - Progressive Web App
+A !website! which runs like a full installed application on any browser ergo any device, can be installed like an app, and is able to get uploaded to all three stores.
+
+And all from the same codebase which is HTML, CSS, JS, React and Material-UI
+
+## - Cesium Globe
+A digtal twin of the real world. Exactly like Google Earth but open-source, with a hugh potential for literally everything.
+And I repeat myself saying: "why didn't Google ever did it?"
+
+# Upcoming features:
+
+## – ‘Social Time’ (local and global volunteering opportunities)
+## – ‘Competence Community’ (Online and VR Brainstormings)
+## – ‘P2P for Good’ (Peer-2-peer organized volunteering opportunities)
+## – ‘Petitions for Good’ (Solution Oriented Online Petitions)
+## – ‘Crowdfund for Good’ (Solution Based Crowdfundings)
+## – ‘Mission TV’ (Live streamings of ‘Social Time’, ‘P2P for Good’ and successfully finished ‘Crowdfund for Good’ campaigns with donation options and integrated live-chat, so that viewers become a part of the show…)
+
+# The world to your (collective) command, a universal library with gaps but interaction options, a metaverse for your thoughts, a social network to become better, and even earning a profit with doing good.
+
+# Upcoming technological features:
+
+## - P2P Database
+## - Ad-Hoc Connect/Install (Barcode, Wifi, Bluetooth, LowRa)
 
 # Looking to build a new [Progressive Web App](https://web.dev/progressive-web-apps/) and not sure where to get started?
 ## This is what you are looking for! The PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit with [Cesium](https://cesium.com/platform/cesiumjs/) integration includes everything you need to start building a production ready PWA with location-based services and follows all best practices.
@@ -16,7 +44,7 @@ to provide the maximum freedom of usage, but restricted to non-profit purposes o
 
 The World Peace Engine Labs license consists of two well-known licenses. The MIT license is altered, restricted to non-profit purposes only.
 https://github.com/worldpeaceenginelabs/PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit/blob/main/LICENSE.txt
-+ Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
++ Creative Commons - Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 + MIT License (altered to non-profit version)
 
 # THIS IS PART OF [#DECENTRALIZED-NON-PROFIT-AS-A-SERVICE](https://worldpeaceengine.org/decentralized-non-profit-as-a-service/)

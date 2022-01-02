@@ -15,7 +15,7 @@ And all from the same codebase which is HTML, CSS, JS, React and Material-UI
 ## - Cesium Globe
 A digital twin of the real world. Exactly like Google Earth but open-source, with a hugh potential for literally everything.
 And I repeat myself saying: "why didn't Google ever did it?"
-<br><br>
+<br><br><br>
 
 # Upcoming features:
 
@@ -37,14 +37,17 @@ And I repeat myself saying: "why didn't Google ever did it?"
 <br>
 
 # Looking to build a new [Progressive Web App](https://web.dev/progressive-web-apps/) and not sure where to get started?
-## This is what you are looking for! The PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit with [Cesium](https://cesium.com/platform/cesiumjs/) integration includes everything you need to start building a production ready PWA with location-based services and follows all best practices.
 
-## If you already have an app/website check out [pwabuilder.com](https://pwabuilder.com) They provide all tools to get your existing repo on the PWA track. Don't forget to check out their blog. These guys from Microsoft and Google definitely know what they are doing, staying always on the most modern, future proof stack.
+This is what you are looking for! The PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit with [Cesium](https://cesium.com/platform/cesiumjs/) integration includes everything you need to start building a production ready PWA with location-based services and follows all best practices.
+
+If you already have an app/website check out [pwabuilder.com](https://pwabuilder.com) They provide all tools to get your existing repo on the PWA track. Don't forget to check out their blog. These guys from Microsoft and Google definitely know what they are doing, staying always on the most modern, future proof stack.
+<br>
 
 # Why PWA? Deep insight into the realm of PWA - The future of the internet and apps
 Progressive Web Apps - PWA Roadshow: https://youtu.be/z2JgN6Ae-Bo
 
-## This repository will run for 10$ a month on 200 fast CDN servers worldwide, with estimated 2 billion API requests included. (more under DEPLOYMENT AND PACKAGING) ...and you will need a tile-server or tile API provider on the long term (the actual API key is for evaluation only)
+This repository will run for 10$ a month on 200 fast CDN servers worldwide, with estimated 2 billion API requests included. (more under DEPLOYMENT AND PACKAGING) ...and you will need a tile-server or tile API provider on the long term (the actual API key is for evaluation only)
+<br>
 
 # WHY THE NON-COMMERCIAL LICENSE MODEL?
 World Peace Engine Labs's existing and upcoming companies, apps, publishings, products, projects, and code, are always licensed by the World Peace Engine Labs License,

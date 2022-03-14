@@ -2,8 +2,8 @@
 <br><br>
 # !HELP WANTED!
 
-## Are you a user? Missing a feature or found a bug? Give us a notice in the issues section!
-## Are you a developer? Do you have some spare time? Feel free to solve a job in the issues section!
+## Are you a user? Missing a feature or found a bug? Give us a notice in the issues section above!
+## Are you a developer? Do you have some spare time? Feel free to solve a job in the issues section above!
 <br><br>
 
 # Features 02.01.2022 stable <a href="https://cloud-atlas.app" target="_blank">LIVE DEMO</a> (Google login only)

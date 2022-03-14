@@ -1,8 +1,11 @@
-![image](https://user-images.githubusercontent.com/67427045/147877266-f1716c63-f31a-4a0f-acc5-7ca1d966b9a5.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/67427045/147877266-f1716c63-f31a-4a0f-acc5-7ca1d966b9a5.png" />
+</p>
 <br><br>
-# !HELP WANTED!
 
+# !HELP!
 ## Are you a user? Missing a feature or found a bug? Give us a notice in the issues section above!
+
+# !HELP WANTED!
 ## Are you a developer? Do you have some spare time? Feel free to solve a job in the issues section above!
 <br><br>
 
@@ -11,7 +14,7 @@
 ## - Progressive Web App
 A !website! which runs like a full installed application on any browser ergo any device, can be installed like an app, and is able to get uploaded to all three stores.
 
-And all from the same codebase which is HTML, CSS, JS, React and Material-UI
+And all from the same codebase which is HTML, CSS, Javascript(typescript), React and Material-UI
 <br>
 
 ## - Cesium Globe

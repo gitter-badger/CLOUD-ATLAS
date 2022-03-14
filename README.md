@@ -1,7 +1,9 @@
 ![image](https://user-images.githubusercontent.com/67427045/147877266-f1716c63-f31a-4a0f-acc5-7ca1d966b9a5.png)
 <br><br>
 # !HELP WANTED!
-## This is a so called Collective Computer. And  its becoming like from the movies. A computer which duty it is to support us the best way to work to better ourselves and the rest of humanity.
+
+## Are you a user? Missing a feature or found a bug? Give us a notice in the issues section!
+## Are you a developer? Do you have some spare time? Feel free to solve a job in the issues section!
 <br><br>
 
 # Features 02.01.2022 stable <a href="https://cloud-atlas.app" target="_blank">LIVE DEMO</a> (Google login only)

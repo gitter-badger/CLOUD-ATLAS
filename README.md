@@ -2,7 +2,7 @@
 </p>
 <br><br>
 
-# !HELP!
+# NEED HELP?
 ## Are you a user? Missing a feature or found a bug? Give us a notice in the issues section above!
 
 # !HELP WANTED!

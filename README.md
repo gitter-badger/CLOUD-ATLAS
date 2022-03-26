@@ -1,3 +1,6 @@
+# CLOUD.ATLAS - The collective computer of the people - Lets make collaboration and good deeds sexy as entertainment...
+# ...to rise the quality of life and make Earth a better place
+
 <p align="center"><img src="https://user-images.githubusercontent.com/67427045/147877266-f1716c63-f31a-4a0f-acc5-7ca1d966b9a5.png" />
 </p>
 <br><br>

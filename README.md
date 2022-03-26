@@ -13,6 +13,11 @@
 ## Are you a developer? Do you have some spare time? Feel free to solve a job in the issues section above!
 <br><br>
 
+# Status
+
+Development Kanban: https://github.com/users/worldpeaceenginelabs/projects/6
+<br><br>
+
 # Features 02.01.2022 stable <a href="https://cloud-atlas.app" target="_blank">LIVE DEMO</a> (Google login only)
 
 ## - Progressive Web App

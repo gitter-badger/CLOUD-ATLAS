@@ -2,7 +2,7 @@
 
 If you have sparetime to help coding the six pinned repositories on https://github.com/worldpeaceenginelabs/, i promise you get
 
-- A collective computer.
+- A collective computer which is a cloud atlas.
 
 - A universal library with gaps but options to fill the gaps and connect the dots. Interdisciplinary. The more users the library has, the better the information quality.
 

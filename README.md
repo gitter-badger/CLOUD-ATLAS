@@ -2,7 +2,7 @@
 
 If you have sparetime for coding the six pinned repositories on https://github.com/worldpeaceenginelabs/, i promise you get
 
-- A collective computer. The more users the Cloud Atlas has, the better the overall life quality.
+- A collective computer.
 
 - A universal library with gaps but options to fill the gaps and connect the dots. Interdisciplinary. The more users the library has, the better the information quality.
 

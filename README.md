@@ -6,7 +6,7 @@ If you have sparetime for coding the six pinned repositories on https://github.c
 
 - A universal library with gaps but options to fill the gaps and connect the dots. Interdisciplinary. The more users the library has, the better the information quality.
 
-- A social network for good deeds in every area from private to private or private to business or vice versa and around. The more users the social network has, the better the improvement rate.
+- A social network for good deeds in every area from private to private or private to business or vice versa and around. The more users the social network has, the greater the improvement rate.
 
 - An interactive P2P TV Channel, showing people become famous with doing good deeds. The more users watching, the better the streaming quality.
 
@@ -14,9 +14,9 @@ If you have sparetime for coding the six pinned repositories on https://github.c
 
 - A distributed, global map tile server, for free access to a map tile API for Your next location based application. The more users using maps, the better the zoom in speed and the updates of maps.
 
-- Nonprofitasaservice, pushing you to transform your idea into a non-profit business, which doesnt mean you cant do profit... (strong misconception about non-profit. Just the purpose is different, but not the methods. Of course you are allowed to make a profit, but for the good.) The more users your business has, the better the network quality.
+- Non-profit as a service, pushing you to transform your idea into a non-profit business, which doesnt mean you cant do profit... (strong misconception about non-profit. Just the purpose is different, but not the methods. Of course you are allowed to make a profit, but for the good.) The more users your business has, the better the network quality.
 
-- A “currency” that is based on a valueless unit-system, just like in the movies. Sustainability built in. Starting with solving world hunger. The more users the app has, the better the food distribution. (more disribution channels to come)
+- A “currency” that is based on a valueless unit-system, just like in the movies. Sustainability built in. Just buy, dont mind. Starting with fighting world hunger. The more users the app has, the better the food distribution. (more disribution channels to come)
 <br><br><br>
 
 # CLOUD.ATLAS - The collective computer of the people - Lets make collaboration and good deeds sexy as entertainment...

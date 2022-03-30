@@ -1,6 +1,6 @@
 # COMMUNITY CHALLENGE
 
-If you have sparetime for coding the six pinned repositories on https://github.com/worldpeaceenginelabs/, i promise you get
+If you have sparetime to help coding the six pinned repositories on https://github.com/worldpeaceenginelabs/, i promise you get
 
 - A collective computer.
 

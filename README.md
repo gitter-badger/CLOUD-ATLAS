@@ -2,17 +2,17 @@
 
 If you have sparetime for coding the six pinned repositories on https://github.com/worldpeaceenginelabs/, i promise you get
 
-- A collective computer. The more users the Cloud Atlas has, the better the network quality.
+- A collective computer. The more users the Cloud Atlas has, the better the overall life quality.
 
-- A universal library with gaps but options to fill the gaps and connect the dots. Interdisciplinary. The more users the library has, the better the network quality.
+- A universal library with gaps but options to fill the gaps and connect the dots. Interdisciplinary. The more users the library has, the better the information quality.
 
-- A social network for good deeds in every area from private to private or private to business or vice versa and around. The more users the social network has, the better the network quality.
+- A social network for good deeds in every area from private to private or private to business or vice versa and around. The more users the social network has, the better the improvement rate.
 
-- An interactive P2P TV Channel, showing people become famous with doing good deeds. The more users watching, the better the network quality.
+- An interactive P2P TV Channel, showing people become famous with doing good deeds. The more users watching, the better the streaming quality.
 
 - True P2P back-end for your next startup business idea, up and running in 60min at no cost. The more users your app has, the better the network quality.
 
-- A distributed, global map tile server, for free access to a map tile API for Your next location based application. The more users using maps, the better the network quality.
+- A distributed, global map tile server, for free access to a map tile API for Your next location based application. The more users using maps, the better the zoom in speed and the updates of maps.
 
 - Nonprofitasaservice, pushing you to transform your idea into a non-profit business, which doesnt mean you cant do profit... (strong misconception about non-profit. Just the purpose is different, but not the methods. Of course you are allowed to make a profit, but for the good.) The more users your business has, the better the network quality.
 

@@ -1,21 +1,25 @@
 # COMMUNITY CHALLENGE
 
-If you have sparetime to help coding the six pinned repositories on https://github.com/worldpeaceenginelabs/, i promise you get
+If you have sparetime to help coding the six pinned repositories (there are issues distributed) on https://github.com/worldpeaceenginelabs/ that would be lovely.
 
-- A collective computer which is a cloud atlas.
+# IN ACTIVE DEVELOPMENT
 
-- A universal library with gaps but options to fill the gaps and connect the dots. Interdisciplinary. The more users the library has, the better the information quality.
+#### CLOUD ATLAS
+- A collective computer on a global scale. Distributed and selfscaling via CDN and Peer to Peer.
+
+- A universal library with gaps but options, to fill the gaps and connect the dots. Interdisciplinary. The more users the library has, the better the information quality.
 
 - A social network for good deeds in every area from private to private or private to business or vice versa and around. The more users the social network has, the greater the improvement rate.
 
+#### MISSION-TV
 - An interactive P2P TV Channel, showing people become famous with doing good deeds. The more users watching, the better the streaming quality.
-
+#### MISHMESH-P2P-PWA-JAMSTACK-STARTER-KIT
 - True P2P back-end for your next startup business idea, up and running in 60min at no cost. The more users your app has, the better the network quality.
-
+#### MAPTILE DSERVER
 - A distributed, global map tile server, for free access to a map tile API for Your next location based application. The more users using maps, the better the zoom in speed and the updates of maps.
-
+#### NON-PROFIT AS-A-SERVICE
 - Non-profit as a service, pushing you to transform your idea into a non-profit business, which doesnt mean you cant do profit... (strong misconception about non-profit. Just the purpose is different, but not the methods. Of course you are allowed to make a profit, but for the good.) The more users your business has, the better the network quality.
-
+#### ZERODOLLAR CRYPTOCARD APP
 - A “currency” that is based on a valueless unit-system, just like in the movies. Sustainability built in. Just buy, dont mind. Starting with fighting world hunger. The more users the app has, the better the food distribution. (more disribution channels to come)
 <br><br><br>
 

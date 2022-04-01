@@ -1,5 +1,7 @@
 # COMMUNITY CHALLENGE
 
+[![Join the chat at https://gitter.im/World-Peace-Engine-Labs/community](https://badges.gitter.im/World-Peace-Engine-Labs/community.svg)](https://gitter.im/World-Peace-Engine-Labs/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 If you have sparetime to help coding the six pinned repositories (there are issues distributed) on https://github.com/worldpeaceenginelabs/ that would be lovely.
 
 # IN ACTIVE DEVELOPMENT
